@@ -1,0 +1,15 @@
+#content-inner {
+	display: inline-block;
+}
+
+#left {
+	width: 236px;
+}
+
+.form {
+	margin: 1em 0 0;	
+}
+
+#schedule #schedule-nav, #riders #riders-nav, #sponsors #sponsors-nav , #spectators #spectators-nav, #photos #photos-nav, #results #results-nav {
+	display: inline-block;
+}
