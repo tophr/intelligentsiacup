@@ -151,3 +151,23 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+/*-----------------------------------------------------------------------------------*/
+/*	Custom Login Logo Support
+/*-----------------------------------------------------------------------------------*/
+
+function intelligentsiacup_custom_login_logo() {
+    echo '<style type="text/css">
+        h1 a { background-image:url('.get_template_directory_uri().'/images/blue/ic-logo.png) !important; background-size: contain !important; width: 320px !important; }
+    </style>';
+}
+function intelligentsiacup_wp_login_url() {
+    return home_url();
+}
+function intelligentsiacup_wp_login_title() {
+    return get_option('blogname');
+}
+
+add_action('login_head', 'intelligentsiacup_custom_login_logo');
+add_filter('login_headerurl', 'intelligentsiacup_wp_login_url');
+add_filter('login_headertitle', 'intelligentsiacup_wp_login_title');
