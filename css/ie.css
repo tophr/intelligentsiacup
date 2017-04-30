@@ -1,3 +1,7 @@
+#navigation ul {
+	float:left;
+}
+
 #content-inner {
 	display: inline-block;
 }

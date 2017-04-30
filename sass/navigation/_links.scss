@@ -17,3 +17,19 @@ a {
 		outline: 0;
 	}
 }
+
+a:link, a:visited { color:#ed1c24; text-decoration:none; outline:none; }
+a:hover, a:active { color:#0e2546; text-decoration:none; }
+
+a.button {
+	text-transform: uppercase;
+	color: #ffffff;
+	background: #0e2546;
+	padding: 8px 10px;
+	display: inline-block;
+	border-radius: 6px;
+}
+
+a.button:hover {
+	background: #001838;
+}	

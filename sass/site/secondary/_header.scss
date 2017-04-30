@@ -1,0 +1,71 @@
+/* Branding */
+
+#branding {
+	font-family: 'Open Sans', Trebuchet MS, sans-serif;
+	text-transform: uppercase;
+	text-align:center;
+	overflow: hidden;
+	color:#fff;
+	background: url(images/blue/bg-header.jpg) repeat left top;
+}
+
+#logo {
+	float:left;
+	height:64px;
+	width:340px;
+	margin:40px 0px 0px 0px;
+	h1, p {
+		margin: 0;
+		padding: 0;
+	}
+}
+	
+#container-time {
+	float: right;
+	width: 60%;
+}
+
+#time {
+	font-size: 16px;
+	float:right;
+	letter-spacing:.04em;
+	margin:12px -10px 8px 0;
+	/*1font-weight: 600;*/
+	display: block;
+	height:6px;
+	width:531px;
+	color:#ed1c24;
+}
+
+.cd-time {
+	color:#000;
+	font-weight:300;
+	text-shadow: none;
+}
+
+#big {
+	float:right;
+	margin:12px -10px 0 0;
+	padding:0;
+	display: block;
+	height:38px;
+	width:531px;
+}
+
+#ribbon {
+	float: right;
+	display: block;
+	height:78px;
+	width:531px;
+	margin:-12px -6px 0 0;
+	padding:0;
+}
+
+#ncc {
+	overflow: hidden;
+	position: relative;
+	top: -102px;
+	left: 305px;
+	left: 234px;
+	left: 290px;
+}

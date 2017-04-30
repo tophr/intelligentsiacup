@@ -7,11 +7,19 @@
  * @package Intelligentsia_Cup
  */
 
-if ( ! is_active_sidebar( 'sidebar-1' ) ) {
+if ( !is_active_sidebar( 'sidebar-1' ) ) {
 	return;
 }
 ?>
-
-<aside id="secondary" class="widget-area" role="complementary">
+<div id="left">
 	<?php dynamic_sidebar( 'sidebar-1' ); ?>
-</aside><!-- #secondary -->
+</div>
+
+<!-- <div class="block">
+<h3>Online Registration</h3>
+<ul class="side">
+	<li class="first"><a href="https://www.usacycling.org/register/2016-64" target="_blank" class="button">Register Today!</a>
+	</li>
+</ul>
+
+</div> -->

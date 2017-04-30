@@ -14,6 +14,11 @@ object {
 	max-width: 100%;
 }
 
+.embed-container { margin:1em 0; position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; }
+
+.embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }	
+
+
 /*--------------------------------------------------------------
 ## Captions
 --------------------------------------------------------------*/
@@ -23,3 +28,47 @@ object {
 ## Galleries
 --------------------------------------------------------------*/
 @import "galleries";
+
+/* Images */
+
+.image {
+	margin: 0;
+	padding: 4px;
+	background-color: #fcfcfc;
+	border: 1px dotted #d8d4c1;
+}
+
+.image-right {
+	float: right;
+	margin: 0 0 1em 1em;
+	padding: 4px;
+	background-color: #fcfcfc;
+	border: 1px dotted #d8d4c1;
+}
+
+.image-left {
+	float: left;
+	margin: 0 1em 1em 0;
+	padding: 4px;
+	background-color: #fcfcfc;
+	border: 1px dotted #d8d4c1;
+}
+
+.logo-right {
+	float: right;
+	margin: 0 0 1em 1em;
+}
+
+.logo-left {
+	float: left;
+	margin: 0 1em 1em 0;
+}
+
+/* Move this somewhere else that makes more sense */
+.arrow:before {
+	content:'\25BA';
+	color: #ed1c24;
+	font-size: 75%;
+	padding-right:2px;
+	vertical-align:text-top;
+}

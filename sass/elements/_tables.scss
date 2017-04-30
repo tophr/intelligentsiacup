@@ -1,4 +1,50 @@
+table, td, th {
+		border-color: #d6d6d6;
+		border-style: solid;
+		font-size: 95%;
+	}
+
 table {
-	margin: 0 0 1.5em;
+	border-width: 0 0 1px 1px;
+	border-spacing: 0;
+	border-collapse: collapse;
+	border: 1px solid #d6d6d6;
+	margin: 1.5em 0 0.5em;
 	width: 100%;
+}
+
+td, th {
+	margin: 0;
+	padding: 5px;
+	border-width: 1px 1px 0 0;
+	background-color: #fff;
+	text-align: center;
+}
+
+table ul {
+	padding-left:0;
+	margin-left:0;
+	list-style-type:none;
+}
+
+table.video, table.video td {
+	border: none;
+	margin: 0;
+}
+
+td.borderless {
+	border-left: none;
+	border-right: none;
+}
+
+.new-venue {
+	background-image: url('images/stages/new-venue.png');
+	background-repeat: no-repeat;
+	background-position: 98% 8px; 
+}
+
+.new-course {
+	background-image: url('images/stages/new-course.png');
+	background-repeat: no-repeat;
+	background-position: 98% 8px; 
 }

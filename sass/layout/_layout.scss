@@ -1,0 +1,51 @@
+html, body {
+	background-image: url('images/blue/bg.png');
+	background-repeat: repeat;
+	background-position: center top; 
+}
+
+#container-body, #navigation-inner, #hero-inner, #branding-inner {
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;	
+	width: 90%; //880px;
+}
+
+@media screen and (min-width: 1500px) {
+	#container-body, #navigation-inner, #hero-inner, #branding-inner {
+		width: 1400px;
+	}
+}
+
+#content {
+	margin:30px 0 0; padding:0;
+}
+
+#left {
+	width: 27.2727%; //240px;
+	float: left;
+	margin-right: 8px;
+}
+
+#right {
+	width: 70%; //616px;
+	float: right;
+	background: url(images/blue/bg-right.png) no-repeat left top;
+}
+
+.mobile {
+	display: none;
+}
+
+.block {	
+	margin-bottom:30px;
+	padding:0 30px 30px;
+}
+
+/* Full Width */
+
+.full-width #right, #right.full-width {	
+	width: 100%;
+	float: none;
+	background: url(images/blue/bg-right.png) no-repeat left top;
+}

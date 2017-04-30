@@ -6,3 +6,50 @@
 		max-width: 100%;
 	}
 }
+
+/* Sidebar */	
+
+#left  {
+	.block {
+		background: #f1f1f1;
+		font-size: 14px;
+	}
+	h3 {
+		margin: 0 -30px 15px;
+		padding: 15px;
+		color: #fff;
+		font-weight: 400;
+		font-size: 16px;
+		text-transform:uppercase;
+		background: #e7161e;
+	}
+}
+
+.block {	
+	ul {
+		padding: 0; 
+		margin: -15px -30px -30px;
+		font-size: 100%;
+		li {
+			text-decoration: none;
+			padding: 15px; margin: 0;
+			list-style-type: none;
+			border-top: 1px dotted #c5c5c5;
+			&:first-child {
+				border: none;
+			}
+		}
+		.logo {
+			border: 3px solid #ddd;
+			margin-top: 4px;
+		}
+		.produced {
+			display: inline-block;
+			padding-left:16px;
+			height: 70px;
+			width: 90px;
+			vertical-align: bottom;
+			font-size: 90%;
+		}
+	}
+}

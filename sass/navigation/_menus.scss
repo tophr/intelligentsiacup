@@ -97,11 +97,109 @@
 	.nav-previous {
 		float: left;
 		width: 50%;
+		a:before {
+			content: '\2190';
+		}
 	}
 
 	.nav-next {
 		float: right;
 		text-align: right;
 		width: 50%;
+		a:after {
+			content: '\2192';
+		}
 	}
+}
+
+/* Navigation */
+
+#navigation {
+	height:48px;
+	background: url(images/blue/bg-red.jpg) repeat-x left top;
+	ul {
+		list-style:none;
+		position:relative;
+		margin:0;
+		padding:0;
+		display: flex;
+		justify-content: space-around;
+		li {
+			position:relative;
+			float:left;
+			margin:0;
+			padding:0;
+		}
+		a {
+			display: block;
+			color: #fff;
+			text-transform: uppercase;
+			text-decoration:none;
+			font-weight: 400;
+			font-size: 110%;
+			line-height: 48px;
+			padding: 0 30px;
+			font-family: 'Open Sans', Trebuchet MS, sans-serif;
+		}
+	}
+}
+
+#schedule #navigation ul li.schedule, #schedule #navigation ul li.schedule a:hover, 
+#racers #navigation ul li.racers, #racers #navigation ul li.racers a:hover, 
+#housing #navigation ul li.housing, #housing #navigation ul li.housing a:hover, 
+#sponsors #navigation ul li.sponsors, #sponsors #navigation ul li.sponsors a:hover, 
+#volunteer #navigation ul li.volunteer, #volunteer #navigation ul li.volunteer a:hover, 
+#photos #navigation ul li.photos, #photos #navigation ul li.photos a:hover, 
+#videos #navigation ul li.videos, #videos #navigation ul li.videos a:hover, 
+#reports #navigation ul li.reports, #reports #navigation ul li.reports a:hover,  
+#news #navigation ul li.news, #news #navigation ul li.news a:hover,  
+#results #navigation ul li.results, #results #navigation ul li.results a:hover,  
+#register #navigation ul li.register, #register #navigation ul li.register a:hover, 
+#contact #navigation ul li.contact, #contact #navigation ul li.contact a:hover {
+	color: #ffffff;
+	background: url(images/blue/bg-darkred.jpg) repeat-x left top;
+}
+
+#navigation ul a:hover {
+	color: #ffffff;
+	background: url(images/blue/bg-darkred.jpg) repeat-x left top;
+}
+
+#navigation ul ul {
+	z-index: 1;
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background: #000e2f;
+	width: 15em;
+}
+
+#navigation ul li.schedule ul {
+	width: 22em;
+}
+
+#navigation ul ul li {
+	float:none;
+}
+
+#navigation ul ul a:hover {
+	color: #ffffff;
+	background: url(images/blue/bg-darkred.jpg) repeat-x left top;
+}
+
+#navigation ul ul a	{
+	text-transform: none;
+	line-height:100%;
+	padding:15px;
+}
+
+#navigation ul ul ul {
+	top:0;
+	left:100%;
+	background: #0e2445;	
+}
+
+#navigation ul li:hover > ul {
+	display:block;
 }

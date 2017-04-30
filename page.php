@@ -14,25 +14,59 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+<?php
+if ( has_post_thumbnail() ) { ?>
+	<div id="hero" style="background-image: url('<?php the_post_thumbnail_url(); ?>');">
+		<div id="hero-inner">
+			<?php the_title( '<h1 id="hero-headline">', '</h1>' ); ?>
+		</div>
+	</div>
+<?php	
+} 
+?>
 
+<div id="container-body">
+	<div id="content">
+
+		<?php get_sidebar(); ?>
+
+		<div id="right">
+			<div class="block">
+
+				<?php
+				while ( have_posts() ) : the_post();
+
+					get_template_part( 'template-parts/content', 'page' );
+
+					// If comments are open or we have at least one comment, load up the comment template.
+					if ( comments_open() || get_comments_number() ) :
+						comments_template();
+					endif;
+
+				endwhile; // End of the loop.
+				?>
+
+			</div>
+			
 			<?php
-			while ( have_posts() ) : the_post();
-
-				get_template_part( 'template-parts/content', 'page' );
-
-				// If comments are open or we have at least one comment, load up the comment template.
-				if ( comments_open() || get_comments_number() ) :
-					comments_template();
-				endif;
-
-			endwhile; // End of the loop.
-			?>
-
-		</main><!-- #main -->
-	</div><!-- #primary -->
+			if( have_rows('content_sections') ):					
+				echo '<div class="block">';				
+				while ( have_rows('content_sections') ) : the_row();		
+					$title = get_sub_field('title');
+					$body = get_sub_field('body');
+			
+					echo '<h1 class="entry-title title">' . $title . '</h1>';	
+			
+					echo $body;	
+			
+				endwhile;
+				echo '</div>';	
+			endif;
+			?>			
+			
+		</div>
+		<div class="cleaner"></div>
+	</div>
 
 <?php
-get_sidebar();
 get_footer();
