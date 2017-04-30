@@ -109,8 +109,6 @@ add_action( 'widgets_init', 'intelligentsiacup_widgets_init' );
 function intelligentsiacup_scripts() {
 	wp_enqueue_style( 'intelligentsiacup-style', get_stylesheet_uri() );
 	
-	wp_enqueue_style( 'intelligentsiacup-mobile', get_template_directory_uri() . '/css/mobile.css', array(), '1.1'  );
-	
 	wp_enqueue_style( 'lightbox', get_template_directory_uri() . '/css/lightbox.css'  );
 	
 	wp_enqueue_style( 'featherlight', get_template_directory_uri() . '/css/featherlight.min.css'  );

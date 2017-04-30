@@ -19,10 +19,12 @@
 		padding: 0;
 	}
 }
-	
+
+@media only screen and (min-width: 761px) {
 #container-time {
 	float: right;
 	width: 60%;
+}
 }
 
 #time {

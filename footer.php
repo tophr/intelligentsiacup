@@ -27,7 +27,7 @@
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/featherlight.min.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/featherlight.gallery.min.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.countdown1.2.min.js"></script>
-<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/navigation.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/navigation-ic.js"></script>
 <script type="text/javascript">
 jQuery(document).ready(function() {
 

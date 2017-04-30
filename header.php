@@ -44,10 +44,13 @@
 
 	</div>
 
+	
 	<nav id="navigation">
-		<div id="navigation-inner">		
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'intelligentsiacup' ); ?></button>
-			<?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'nav' ) ); ?>
+		<span class="menu-link"><a href="#menu">Main Menu</a></span>
+		<div id="navigation-inner">
+							
+			<?php wp_nav_menu( array( 'menu_class' => 'menudo', 'container_class' => 'menu', 'container_id' => 'nav', 'theme_location' => 'menu-1' ) ); ?>
+			
 		</div>
 	</nav>
 	
