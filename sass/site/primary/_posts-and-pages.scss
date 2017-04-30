@@ -24,7 +24,10 @@
 	color: #666;
 	font-size: 1em;
 	font-style: italic;
-	margin-top: 15px;
+	margin-bottom: 15px;
+	a {
+		font-style: normal;
+	}
 }
 
 .page-content,
@@ -86,7 +89,7 @@
 /* Body */
 
 .page-title, .title {
-	margin:0 -30px;
+	margin: -30px -30px 30px;
 	color:#ffffff;
 	font-weight: 300;
 	text-transform: uppercase;
@@ -107,6 +110,9 @@ h4.title {
 	border: 1px solid #d6d6d6;
 	padding: 24px 29px;
 	margin-top: 1.25em;
+	p:last-child {
+		margin-bottom: 0;
+	}
 }
 
 ul.box {
@@ -120,10 +126,15 @@ ul.box li {
 }	
 
 .entry-footer {
+	color: #666;
+	font-size: 1em;
+	font-style: italic;
+	margin-top: 15px;
 	a {
 		padding-right: 10px;
 		border-right: 1px solid #ccc;
-		margin-right: 10px;		
+		margin-right: 10px;	
+		font-style: normal;
 	}
 	span:last-child a {
 		border-right: none;

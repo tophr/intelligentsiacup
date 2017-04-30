@@ -50,17 +50,19 @@ if ( has_post_thumbnail() ) { ?>
 			
 			<?php
 			if( have_rows('content_sections') ):					
-				echo '<div class="block">';				
+								
 				while ( have_rows('content_sections') ) : the_row();		
 					$title = get_sub_field('title');
 					$body = get_sub_field('body');
 			
+					echo '<div class="block">';			
 					echo '<h1 class="entry-title title">' . $title . '</h1>';	
 			
 					echo $body;	
+					echo '</div>';				
 			
 				endwhile;
-				echo '</div>';	
+				
 			endif;
 			?>			
 			
