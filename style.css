@@ -669,6 +669,9 @@ a.button:hover {
 #navigation ul li:hover > ul {
   display: block; }
 
+#navigation .icon-logo {
+  display: none; }
+
 @media only screen and (min-width: 761px) {
   #navigation ul ul {
     display: block;
@@ -678,7 +681,13 @@ a.button:hover {
   #navigation ul li:hover > ul {
     opacity: 1;
     visibility: visible;
-    transition: visibility 0s linear 0s, opacity 300ms; } }
+    transition: visibility 0s linear 0s, opacity 300ms; }
+  #navigation.fixed .icon-logo {
+    display: block;
+    position: absolute;
+    width: 61px;
+    top: 3px;
+    left: 10px; } }
 
 /*--------------------------------------------------------------
 # Accessibility

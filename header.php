@@ -46,6 +46,7 @@
 
 	
 	<nav id="navigation">
+		<img src="<?php echo get_template_directory_uri(); ?>/images/ic-icon.svg" class="icon-logo" alt="" />
 		<span class="menu-link"><a href="#menu">Main Menu</a></span>
 		<div id="navigation-inner">
 							
