@@ -1,5 +1,10 @@
 /* Branding */
 
+#container-header {
+	position: relative;
+	z-index: 10;
+}
+
 #branding {
 	font-family: 'Open Sans', Trebuchet MS, sans-serif;
 	text-transform: uppercase;

@@ -16,9 +16,10 @@
 <div id="footer-border"></div>
 <footer id="footer" class="site-footer" role="contentinfo">
 	
-	<?php wp_nav_menu( array( 'theme_location' => 'menu-footer' ) ); ?>
+	<p><?php wp_nav_menu( array( 'theme_location' => 'menu-footer' ) ); ?></p>
 	
-	<p>Copyright &copy; <?php echo date('Y'); ?> Prairie State Cycling Series, LLC. All rights reserved.<br /><strong>Phone</strong>: 847.644.0277 <strong>Email</strong>: <a href="mailto:info@intelligentsiacup.com">info@intelligentsiacup.com</a></p>
+	<p>&copy; <?php echo date('Y'); ?> Prairie State Cycling Series, LLC. All rights reserved.</p>
+	<p><strong>Phone</strong>: 847.644.0277 <strong>Email</strong>: <a href="mailto:info@intelligentsiacup.com">info@intelligentsiacup.com</a></p>
 
 </footer>
 

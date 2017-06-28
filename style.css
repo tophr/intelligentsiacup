@@ -593,7 +593,9 @@ a.button:hover {
       position: relative;
       float: left;
       margin: 0;
-      padding: 0; }
+      padding: 0;
+      width: 100%;
+      text-align: center; }
     #navigation ul a {
       display: block;
       color: #fff;
@@ -602,8 +604,8 @@ a.button:hover {
       font-weight: 400;
       font-size: 110%;
       line-height: 48px;
-      padding: 0 30px;
-      font-family: 'Open Sans', Trebuchet MS, sans-serif; }
+      font-family: 'Open Sans', Trebuchet MS, sans-serif;
+      transition: all 0.4s ease; }
 
 #schedule #navigation ul li.schedule, #schedule #navigation ul li.schedule a:hover,
 #racers #navigation ul li.racers, #racers #navigation ul li.racers a:hover,
@@ -621,8 +623,8 @@ a.button:hover {
   background: url(images/blue/bg-darkred.jpg) repeat-x left top; }
 
 #navigation ul a:hover {
-  color: #ffffff;
-  background: url(images/blue/bg-darkred.jpg) repeat-x left top; }
+  color: #fff;
+  background-color: #c00; }
 
 #navigation ul ul {
   z-index: 1;
@@ -794,6 +796,10 @@ html, body {
 # Header & Footer
 --------------------------------------------------------------*/
 /* Branding */
+#container-header {
+  position: relative;
+  z-index: 10; }
+
 #branding {
   font-family: 'Open Sans', Trebuchet MS, sans-serif;
   text-transform: uppercase;
@@ -861,7 +867,7 @@ html, body {
   padding: 2em 0 1em 0;
   margin: 0 auto;
   text-align: center;
-  color: #320103;
+  color: #fff;
   background: url(images/blue/bg-red.jpg) repeat left top; }
   #footer ul {
     padding: 0.5em 0 0 0;
@@ -869,16 +875,18 @@ html, body {
   #footer li {
     display: inline;
     padding: 0 1px 0 4px;
-    border-left: 1px dotted #7a0005; }
+    border-left: 1px solid #fff; }
     #footer li:first-child {
       border: none;
       padding-left: 0; }
+    #footer li a {
+      margin: 6px; }
   #footer a {
-    color: #ffffff;
-    text-decoration: none; }
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px dotted #fff; }
     #footer a:hover {
-      color: #7a0005;
-      text-decoration: none; }
+      color: #7a0005; }
 
 /*--------------------------------------------------------------
 # Widgets
@@ -964,10 +972,15 @@ html, body {
   background: #000d23;
   background-position: center center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   height: 560px;
   background-size: cover;
   margin-bottom: 30px;
   position: relative; }
+
+.home #hero {
+  height: 100vh;
+  margin-top: -220px; }
 
 .header-image {
   padding: 8px 8px 0 8px; }
@@ -979,7 +992,7 @@ html, body {
   font-weight: 300;
   padding: 0 9px 2px 9px;
   overflow: hidden;
-  font-size: 54px;
+  font-size: 90px;
   line-height: 1;
   position: absolute;
   background: rgba(15, 36, 69, 0.8);
@@ -1017,11 +1030,14 @@ h4.title {
   background: #fff; }
 
 .box {
-  border: 1px solid #d6d6d6;
-  padding: 24px 29px;
+  border-bottom: 1px solid #d6d6d6;
+  padding-bottom: 29px;
   margin-top: 1.25em; }
   .box p:last-child {
     margin-bottom: 0; }
+
+.block .box:last-child {
+  border-bottom: none; }
 
 ul.box {
   list-style-type: none;

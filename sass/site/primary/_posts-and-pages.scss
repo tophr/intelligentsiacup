@@ -48,11 +48,17 @@
 	background: #000d23;
 	background-position: center center;
 	background-repeat: no-repeat;
+	background-attachment: fixed;
 	height: 560px;
 	background-size: cover;
 	margin-bottom: 30px;
 	position: relative;
 }	
+
+.home #hero {
+	height: 100vh; 
+	margin-top: -220px;
+}
 
 .header-image {
 	padding: 8px 8px 0 8px;
@@ -65,7 +71,7 @@
 	font-weight: 300;
 	padding: 0 9px 2px 9px;
 	overflow:hidden;
-	font-size:54px;
+	font-size:90px;
 	line-height: 1;
 	position: absolute;
 	background: rgba($color__brand1, 0.8); //#00050c;
@@ -110,12 +116,16 @@ h4.title {
 }
 
 .box {
-	border: 1px solid #d6d6d6;
-	padding: 24px 29px;
+	border-bottom: 1px solid #d6d6d6;
+	padding-bottom: 29px;
 	margin-top: 1.25em;
 	p:last-child {
 		margin-bottom: 0;
 	}
+}
+
+.block .box:last-child {
+	border-bottom: none;
 }
 
 ul.box {

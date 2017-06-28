@@ -114,6 +114,8 @@
 			float:left;
 			margin:0;
 			padding:0;
+			width: 100%;
+			text-align: center;
 		}
 		a {
 			display: block;
@@ -123,8 +125,8 @@
 			font-weight: 400;
 			font-size: 110%;
 			line-height: 48px;
-			padding: 0 30px;
 			font-family: 'Open Sans', Trebuchet MS, sans-serif;
+			transition: all 0.4s ease;
 		}
 	}
 }
@@ -146,8 +148,9 @@
 }
 
 #navigation ul a:hover {
-	color: #ffffff;
-	background: url(images/blue/bg-darkred.jpg) repeat-x left top;
+	color: #fff;
+	//background: url(images/blue/bg-darkred.jpg) repeat-x left top;
+	background-color: #c00;	
 }
 
 #navigation ul ul {

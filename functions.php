@@ -100,6 +100,16 @@ function intelligentsiacup_widgets_init() {
 		'before_title'  => '<h3 class="widget-title">',
 		'after_title'   => '</h3>',
 	) );
+	register_sidebar( array(
+		'name'          => esc_html__( 'Homepage Sidebar', 'intelligentsiacup' ),
+		'id'            => 'sidebar-home',
+		'description'   => esc_html__( 'Add homepage widgets here.', 'intelligentsiacup' ),
+		'class'			=> 'side',
+		'before_widget' => '<section id="%1$s" class="widget block %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h3 class="widget-title">',
+		'after_title'   => '</h3>',
+	) );
 }
 add_action( 'widgets_init', 'intelligentsiacup_widgets_init' );
 
@@ -107,7 +117,7 @@ add_action( 'widgets_init', 'intelligentsiacup_widgets_init' );
  * Enqueue scripts and styles.
  */
 function intelligentsiacup_scripts() {
-	wp_enqueue_style( 'intelligentsiacup-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'intelligentsiacup-style', get_stylesheet_uri(), array(), '1111' );
 	
 	wp_enqueue_style( 'lightbox', get_template_directory_uri() . '/css/lightbox.css'  );
 	
