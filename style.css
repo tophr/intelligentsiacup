@@ -4,7 +4,7 @@ Theme URI: http://underscores.me/
 Author: Topher McCulloch
 Author URI: http://tophermcculloch.com
 Description: Description
-Version: 1.0.0
+Version: 1.0.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: intelligentsiacup
@@ -350,28 +350,31 @@ figure {
 
 table, td, th {
   border-color: #d6d6d6;
-  border-style: solid;
+  border-style: none;
   font-size: 95%; }
 
 table {
-  border-width: 0 0 1px 1px;
+  border-width: 0 0 0 0;
   border-spacing: 0;
   border-collapse: collapse;
-  border: 1px solid #d6d6d6;
+  border: 0px solid #d6d6d6;
   margin: 1.5em 0 0.5em;
   width: 100%; }
+
+tr:nth-child(even) {
+  background-color: #f2f2f2; }
 
 td, th {
   margin: 0;
   padding: 5px;
-  border-width: 1px 1px 0 0;
+  border-width: 0;
+  border-bottom: 1px dotted #ddd;
   background-color: #fff;
   text-align: center; }
 
 table ul {
   padding-left: 0;
-  margin-left: 0;
-  list-style-type: none; }
+  margin-left: 0; }
 
 table.video, table.video td {
   border: none;
@@ -390,6 +393,11 @@ td.borderless {
   background-image: url("images/stages/new-course.png");
   background-repeat: no-repeat;
   background-position: 98% 8px; }
+
+/*Schedule Table*/
+table th {
+  background-color: #E00003;
+  color: white; }
 
 /*--------------------------------------------------------------
 # Forms
@@ -935,7 +943,9 @@ html, body {
   display: inline; }
 
 .entry-title {
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  font-size: 2.5em;
+  line-height: 1; }
 
 .entry-meta {
   color: #666;
@@ -996,7 +1006,7 @@ html, body {
   color: #ffffff;
   font-weight: 300;
   text-transform: uppercase;
-  font-size: 28px;
+  font-size: 24px;
   padding: 10px 15px;
   background: #00050c url(images/blue/bg-right.png) repeat-x; }
 
@@ -1107,7 +1117,7 @@ object {
 .caption {
   text-align: center;
   font-weight: bold;
-  font-size: 90%; }
+  font-size: 70%; }
 
 /*--------------------------------------------------------------
 ## Galleries
