@@ -409,6 +409,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/ic-icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/ic-icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/images\/ic-logo-dark.jpg": {
 		"ft": 16384,
 		"iS": 48683,
@@ -2234,36 +2244,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/maps\/beverly-sm.jpg": {
-		"ft": 16384,
-		"iS": 161654,
-		"oA": 0,
-		"oAP": "\/images\/maps\/beverly-sm.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/maps\/beverly.jpg": {
-		"ft": 16384,
-		"iS": 367196,
-		"oA": 0,
-		"oAP": "\/images\/maps\/beverly.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/maps\/chicago.jpg": {
-		"ft": 16384,
-		"iS": 104874,
-		"oA": 0,
-		"oAP": "\/images\/maps\/chicago.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/images\/maps\/course-map.jpg": {
 		"ft": 16384,
 		"iS": 187242,
@@ -2274,241 +2254,11 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/maps\/crystal-lake.jpg": {
-		"ft": 16384,
-		"iS": 153303,
-		"oA": 0,
-		"oAP": "\/images\/maps\/crystal-lake.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/maps\/downers-grove.jpg": {
-		"ft": 16384,
-		"iS": 128414,
-		"oA": 0,
-		"oAP": "\/images\/maps\/downers-grove.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/maps\/elmhurst-sm.jpg": {
-		"ft": 16384,
-		"iS": 101408,
-		"oA": 0,
-		"oAP": "\/images\/maps\/elmhurst-sm.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/maps\/elmhurst.jpg": {
-		"ft": 16384,
-		"iS": 414183,
-		"oA": 0,
-		"oAP": "\/images\/maps\/elmhurst.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/maps\/fulton-sm.jpg": {
-		"ft": 16384,
-		"iS": 101999,
-		"oA": 0,
-		"oAP": "\/images\/maps\/fulton-sm.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/maps\/fulton.jpg": {
-		"ft": 16384,
-		"iS": 395308,
-		"oA": 0,
-		"oAP": "\/images\/maps\/fulton.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/maps\/glen-ellyn-sm.jpg": {
-		"ft": 16384,
-		"iS": 107481,
-		"oA": 0,
-		"oAP": "\/images\/maps\/glen-ellyn-sm.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/maps\/glen-ellyn.jpg": {
-		"ft": 16384,
-		"iS": 420951,
-		"oA": 0,
-		"oAP": "\/images\/maps\/glen-ellyn.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/maps\/kenosha.jpg": {
-		"ft": 16384,
-		"iS": 143612,
-		"oA": 0,
-		"oAP": "\/images\/maps\/kenosha.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/maps\/lake-bluff-sm.jpg": {
-		"ft": 16384,
-		"iS": 155038,
-		"oA": 0,
-		"oAP": "\/images\/maps\/lake-bluff-sm.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/maps\/lake-bluff.jpg": {
-		"ft": 16384,
-		"iS": 563400,
-		"oA": 0,
-		"oAP": "\/images\/maps\/lake-bluff.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/maps\/sharon-crit.jpg": {
-		"ft": 16384,
-		"iS": 108390,
-		"oA": 0,
-		"oAP": "\/images\/maps\/sharon-crit.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/maps\/sharon-road.jpg": {
-		"ft": 16384,
-		"iS": 150660,
-		"oA": 0,
-		"oAP": "\/images\/maps\/sharon-road.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/maps\/south-chicago-slow-roll.jpg": {
-		"ft": 16384,
-		"iS": 209063,
-		"oA": 0,
-		"oAP": "\/images\/maps\/south-chicago-slow-roll.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/maps\/south-chicago-sm.jpg": {
-		"ft": 16384,
-		"iS": 124671,
-		"oA": 0,
-		"oAP": "\/images\/maps\/south-chicago-sm.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/maps\/south-chicago.jpg": {
-		"ft": 16384,
-		"iS": 350084,
-		"oA": 0,
-		"oAP": "\/images\/maps\/south-chicago.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/maps\/stcharles.jpg": {
-		"ft": 16384,
-		"iS": 114363,
-		"oA": 0,
-		"oAP": "\/images\/maps\/stcharles.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/maps\/waukegan.jpg": {
-		"ft": 16384,
-		"iS": 142142,
-		"oA": 0,
-		"oAP": "\/images\/maps\/waukegan.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/maps\/west-dundee-sm.jpg": {
-		"ft": 16384,
-		"iS": 94363,
-		"oA": 0,
-		"oAP": "\/images\/maps\/west-dundee-sm.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/maps\/west-dundee.jpg": {
-		"ft": 16384,
-		"iS": 365028,
-		"oA": 0,
-		"oAP": "\/images\/maps\/west-dundee.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/maps\/willow-springs-circuit.jpg": {
-		"ft": 16384,
-		"iS": 260880,
-		"oA": 0,
-		"oAP": "\/images\/maps\/willow-springs-circuit.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/images\/maps\/willow-springs-parking.jpg": {
 		"ft": 16384,
 		"iS": 134937,
 		"oA": 0,
 		"oAP": "\/images\/maps\/willow-springs-parking.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/maps\/willow-springs-sm.jpg": {
-		"ft": 16384,
-		"iS": 115555,
-		"oA": 0,
-		"oAP": "\/images\/maps\/willow-springs-sm.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/maps\/willow-springs.jpg": {
-		"ft": 16384,
-		"iS": 479920,
-		"oA": 0,
-		"oAP": "\/images\/maps\/willow-springs.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2635,28 +2385,6 @@
 		"iS": 16850,
 		"oA": 0,
 		"oAP": "\/images\/red\/ic-logo.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/red\/ribbon-2016.png": {
-		"ft": 32768,
-		"iS": 29911,
-		"oA": 0,
-		"oAP": "\/images\/red\/ribbon-2016.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/red\/ribbon.png": {
-		"ft": 32768,
-		"iS": 30156,
-		"oA": 0,
-		"oAP": "\/images\/red\/ribbon.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
