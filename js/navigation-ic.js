@@ -34,3 +34,17 @@ $(document).ready(function() {
     $(window).resize(checkWidth);	
 		
 });
+
+window.onscroll=function () {
+    var top = window.pageXOffset ? window.pageXOffset : document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop;
+    if(top > 142){
+		//document.getElementById("header").style.opacity = "0";
+    	//document.getElementById("header-fix").style.opacity = "1";
+		$("#navigation").addClass('fixed');
+    }
+    else {
+    	//document.getElementById("header").style.opacity = "1";
+		//document.getElementById("header-fix").style.opacity = "0";
+		$("#navigation").removeClass('fixed');
+    }
+};

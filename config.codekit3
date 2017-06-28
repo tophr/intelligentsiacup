@@ -97,17 +97,6 @@
 		"oAP": "\/header.php",
 		"oF": 0
 		},
-	"\/images\/bg-body.png": {
-		"ft": 32768,
-		"iS": 222,
-		"oA": 0,
-		"oAP": "\/images\/bg-body.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/images\/bg-content.gif": {
 		"ft": 4194304,
 		"iS": 80,
@@ -115,35 +104,6 @@
 		"oAP": "\/images\/bg-content.gif",
 		"oF": 0,
 		"opt": 0
-		},
-	"\/images\/bg-footer.gif": {
-		"ft": 4194304,
-		"iS": 313,
-		"oA": 0,
-		"oAP": "\/images\/bg-footer.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/bg-footer.jpg": {
-		"ft": 16384,
-		"iS": 37929,
-		"oA": 0,
-		"oAP": "\/images\/bg-footer.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/bg-footer.png": {
-		"ft": 32768,
-		"iS": 617,
-		"oA": 0,
-		"oAP": "\/images\/bg-footer.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
 		},
 	"\/images\/bg-header.jpg": {
 		"ft": 16384,
@@ -329,8 +289,8 @@
 		"oA": 0,
 		"oAP": "\/images\/blue\/ic-logo.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -408,26 +368,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/header-image-2012.jpg": {
-		"ft": 16384,
-		"iS": 191981,
-		"oA": 0,
-		"oAP": "\/images\/header-image-2012.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/header-image-2012b.jpg": {
-		"ft": 16384,
-		"iS": 210468,
-		"oA": 0,
-		"oAP": "\/images\/header-image-2012b.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/images\/header-image-2013.jpg": {
 		"ft": 16384,
 		"iS": 166986,
@@ -463,28 +403,6 @@
 		"iS": 511344,
 		"oA": 0,
 		"oAP": "\/images\/header-image.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/header-image2015.png": {
-		"ft": 32768,
-		"iS": 511344,
-		"oA": 0,
-		"oAP": "\/images\/header-image2015.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/ic-logo-2016.png": {
-		"ft": 32768,
-		"iS": 13551,
-		"oA": 0,
-		"oAP": "\/images\/ic-logo-2016.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2777,28 +2695,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/ribbon-2016.png": {
-		"ft": 32768,
-		"iS": 29911,
-		"oA": 0,
-		"oAP": "\/images\/ribbon-2016.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/ribbon.png": {
-		"ft": 32768,
-		"iS": 30156,
-		"oA": 0,
-		"oAP": "\/images\/ribbon.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/images\/Riverside-Family-Ride.jpg": {
 		"ft": 16384,
 		"iS": 204677,
@@ -2807,17 +2703,6 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
-		},
-	"\/images\/see-you.png": {
-		"ft": 32768,
-		"iS": 5426,
-		"oA": 0,
-		"oAP": "\/images\/see-you.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
 	"\/images\/teammack.jpg": {
@@ -3005,108 +2890,90 @@
 	"\/js\/customizer.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/customizer-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 1,
 		"tS": 0
 		},
 	"\/js\/featherlight.gallery.min.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/featherlight.gallery.min-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 1,
 		"tS": 0
 		},
 	"\/js\/featherlight.min.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/featherlight.min-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 1,
 		"tS": 0
 		},
 	"\/js\/jquery-1.6.1.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/jquery-1.6.1-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 1,
 		"tS": 0
 		},
 	"\/js\/jquery-1.7.2.min.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/jquery-1.7.2.min-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 1,
 		"tS": 0
 		},
 	"\/js\/jquery.countdown1.2.min.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/jquery.countdown1.2.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/lightbox-min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/lightbox-min-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 1,
 		"tS": 0
 		},
 	"\/js\/lightbox.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/lightbox-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/navigation-ic-min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/navigation-ic-min-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 1,
 		"tS": 0
 		},
 	"\/js\/navigation-ic.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/navigation-ic-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 1,
 		"tS": 0
 		},
 	"\/js\/navigation.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/navigation-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 1,
 		"tS": 0
 		},
 	"\/js\/skip-link-focus-fix.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/skip-link-focus-fix-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 1,
 		"tS": 0
 		},

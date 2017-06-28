@@ -127,7 +127,7 @@ function intelligentsiacup_scripts() {
 	
 	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Open+Sans:600,400,300|Open+Sans+Condensed:300'  );
 
-	wp_enqueue_script( 'intelligentsiacup-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
+	//wp_enqueue_script( 'intelligentsiacup-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'intelligentsiacup-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 

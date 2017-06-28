@@ -606,6 +606,17 @@ a.button:hover {
       line-height: 48px;
       font-family: 'Open Sans', Trebuchet MS, sans-serif;
       transition: all 0.4s ease; }
+  #navigation.fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 99999;
+    height: 50px;
+    padding-top: 0; }
+
+.admin-bar #navigation.fixed {
+  top: 32px; }
 
 #schedule #navigation ul li.schedule, #schedule #navigation ul li.schedule a:hover,
 #racers #navigation ul li.racers, #racers #navigation ul li.racers a:hover,
@@ -642,7 +653,7 @@ a.button:hover {
   float: none; }
 
 #navigation ul ul a:hover {
-  color: #ffffff;
+  color: #fff;
   background: url(images/blue/bg-darkred.jpg) repeat-x left top; }
 
 #navigation ul ul a {
@@ -657,6 +668,17 @@ a.button:hover {
 
 #navigation ul li:hover > ul {
   display: block; }
+
+@media only screen and (min-width: 761px) {
+  #navigation ul ul {
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s linear 300ms, opacity 300ms; }
+  #navigation ul li:hover > ul {
+    opacity: 1;
+    visibility: visible;
+    transition: visibility 0s linear 0s, opacity 300ms; } }
 
 /*--------------------------------------------------------------
 # Accessibility
@@ -810,9 +832,9 @@ html, body {
 
 #logo {
   float: left;
-  height: 64px;
-  width: 340px;
-  margin: 40px 0px 0px 0px; }
+  height: 79px;
+  width: 420px;
+  margin: 30px 0px 0px 0px; }
   #logo h1, #logo p {
     margin: 0;
     padding: 0; }
@@ -870,8 +892,8 @@ html, body {
   color: #fff;
   background: url(images/blue/bg-red.jpg) repeat left top; }
   #footer ul {
-    padding: 0.5em 0 0 0;
-    margin: 0; }
+    padding: 0;
+    margin: 0 0 10px 0; }
   #footer li {
     display: inline;
     padding: 0 1px 0 4px;
@@ -900,7 +922,8 @@ html, body {
 /* Sidebar */
 #left .block {
   background: #f1f1f1;
-  font-size: 14px; }
+  font-size: 14px;
+  box-shadow: 0px 0px 10px 0px #00050c; }
   #left .block ul {
     padding: 0;
     margin: -15px -30px -30px;
@@ -1016,7 +1039,7 @@ html, body {
 /* Body */
 .page-title, .title {
   margin: -30px -30px 30px;
-  color: #ffffff;
+  color: #fff;
   font-weight: 300;
   text-transform: uppercase;
   font-size: 24px;
@@ -1027,7 +1050,8 @@ h4.title {
   margin-top: 0.25em; }
 
 #right .block {
-  background: #fff; }
+  background: #fff;
+  box-shadow: 0px 0px 10px 0px #00050c; }
 
 .box {
   border-bottom: 1px solid #d6d6d6;
