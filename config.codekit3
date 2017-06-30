@@ -2743,6 +2743,12 @@
 		"oAP": "\/LICENSE",
 		"oF": 0
 		},
+	"\/page-nosidebar.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-nosidebar.php",
+		"oF": 0
+		},
 	"\/page.php": {
 		"ft": 8192,
 		"oA": 2,
