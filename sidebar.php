@@ -16,7 +16,15 @@
 	if ( is_front_page() ) {
 		dynamic_sidebar( 'sidebar-home' );
 	} else {
-		dynamic_sidebar( 'sidebar-1' );
+				 
+        if ( is_page() && $post->post_parent ) {
+        	$childpages = wp_list_pages( 'sort_column=menu_order&title_li=&child_of=' . $post->post_parent . '&echo=0' );
+    	} else {
+    		$childpages = wp_list_pages( 'sort_column=menu_order&title_li=&child_of=' . $post->ID . '&echo=0' );
+    	}
+    	echo '<ul class="sidebar-nav">' . $childpages . '</ul>';    
+		
+		//dynamic_sidebar( 'sidebar-1' );
 	}
 	 ?>
 </div>
