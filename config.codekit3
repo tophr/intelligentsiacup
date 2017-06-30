@@ -97,6 +97,17 @@
 		"oAP": "\/header.php",
 		"oF": 0
 		},
+	"\/images\/bg-body.png": {
+		"ft": 32768,
+		"iS": 222,
+		"oA": 0,
+		"oAP": "\/images\/bg-body.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/bg-content.gif": {
 		"ft": 4194304,
 		"iS": 80,
@@ -104,6 +115,35 @@
 		"oAP": "\/images\/bg-content.gif",
 		"oF": 0,
 		"opt": 0
+		},
+	"\/images\/bg-footer.gif": {
+		"ft": 4194304,
+		"iS": 313,
+		"oA": 0,
+		"oAP": "\/images\/bg-footer.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/bg-footer.jpg": {
+		"ft": 16384,
+		"iS": 37929,
+		"oA": 0,
+		"oAP": "\/images\/bg-footer.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/bg-footer.png": {
+		"ft": 32768,
+		"iS": 617,
+		"oA": 0,
+		"oAP": "\/images\/bg-footer.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/bg-header.jpg": {
 		"ft": 16384,
@@ -289,8 +329,8 @@
 		"oA": 0,
 		"oAP": "\/images\/blue\/ic-logo.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -368,6 +408,26 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/header-image-2012.jpg": {
+		"ft": 16384,
+		"iS": 191981,
+		"oA": 0,
+		"oAP": "\/images\/header-image-2012.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/header-image-2012b.jpg": {
+		"ft": 16384,
+		"iS": 210468,
+		"oA": 0,
+		"oAP": "\/images\/header-image-2012b.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/header-image-2013.jpg": {
 		"ft": 16384,
 		"iS": 166986,
@@ -409,15 +469,27 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/ic-icon.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/images\/ic-icon.svg",
+	"\/images\/header-image2015.png": {
+		"ft": 32768,
+		"iS": 511344,
+		"oA": 0,
+		"oAP": "\/images\/header-image2015.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/ic-logo-2016.png": {
+		"ft": 32768,
+		"iS": 13551,
+		"oA": 0,
+		"oAP": "\/images\/ic-logo-2016.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/ic-logo-dark.jpg": {
 		"ft": 16384,
@@ -2244,6 +2316,36 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/maps\/beverly-sm.jpg": {
+		"ft": 16384,
+		"iS": 161654,
+		"oA": 0,
+		"oAP": "\/images\/maps\/beverly-sm.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/maps\/beverly.jpg": {
+		"ft": 16384,
+		"iS": 367196,
+		"oA": 0,
+		"oAP": "\/images\/maps\/beverly.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/maps\/chicago.jpg": {
+		"ft": 16384,
+		"iS": 104874,
+		"oA": 0,
+		"oAP": "\/images\/maps\/chicago.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/maps\/course-map.jpg": {
 		"ft": 16384,
 		"iS": 187242,
@@ -2254,11 +2356,241 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/maps\/crystal-lake.jpg": {
+		"ft": 16384,
+		"iS": 153303,
+		"oA": 0,
+		"oAP": "\/images\/maps\/crystal-lake.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/maps\/downers-grove.jpg": {
+		"ft": 16384,
+		"iS": 128414,
+		"oA": 0,
+		"oAP": "\/images\/maps\/downers-grove.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/maps\/elmhurst-sm.jpg": {
+		"ft": 16384,
+		"iS": 101408,
+		"oA": 0,
+		"oAP": "\/images\/maps\/elmhurst-sm.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/maps\/elmhurst.jpg": {
+		"ft": 16384,
+		"iS": 414183,
+		"oA": 0,
+		"oAP": "\/images\/maps\/elmhurst.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/maps\/fulton-sm.jpg": {
+		"ft": 16384,
+		"iS": 101999,
+		"oA": 0,
+		"oAP": "\/images\/maps\/fulton-sm.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/maps\/fulton.jpg": {
+		"ft": 16384,
+		"iS": 395308,
+		"oA": 0,
+		"oAP": "\/images\/maps\/fulton.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/maps\/glen-ellyn-sm.jpg": {
+		"ft": 16384,
+		"iS": 107481,
+		"oA": 0,
+		"oAP": "\/images\/maps\/glen-ellyn-sm.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/maps\/glen-ellyn.jpg": {
+		"ft": 16384,
+		"iS": 420951,
+		"oA": 0,
+		"oAP": "\/images\/maps\/glen-ellyn.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/maps\/kenosha.jpg": {
+		"ft": 16384,
+		"iS": 143612,
+		"oA": 0,
+		"oAP": "\/images\/maps\/kenosha.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/maps\/lake-bluff-sm.jpg": {
+		"ft": 16384,
+		"iS": 155038,
+		"oA": 0,
+		"oAP": "\/images\/maps\/lake-bluff-sm.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/maps\/lake-bluff.jpg": {
+		"ft": 16384,
+		"iS": 563400,
+		"oA": 0,
+		"oAP": "\/images\/maps\/lake-bluff.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/maps\/sharon-crit.jpg": {
+		"ft": 16384,
+		"iS": 108390,
+		"oA": 0,
+		"oAP": "\/images\/maps\/sharon-crit.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/maps\/sharon-road.jpg": {
+		"ft": 16384,
+		"iS": 150660,
+		"oA": 0,
+		"oAP": "\/images\/maps\/sharon-road.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/maps\/south-chicago-slow-roll.jpg": {
+		"ft": 16384,
+		"iS": 209063,
+		"oA": 0,
+		"oAP": "\/images\/maps\/south-chicago-slow-roll.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/maps\/south-chicago-sm.jpg": {
+		"ft": 16384,
+		"iS": 124671,
+		"oA": 0,
+		"oAP": "\/images\/maps\/south-chicago-sm.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/maps\/south-chicago.jpg": {
+		"ft": 16384,
+		"iS": 350084,
+		"oA": 0,
+		"oAP": "\/images\/maps\/south-chicago.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/maps\/stcharles.jpg": {
+		"ft": 16384,
+		"iS": 114363,
+		"oA": 0,
+		"oAP": "\/images\/maps\/stcharles.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/maps\/waukegan.jpg": {
+		"ft": 16384,
+		"iS": 142142,
+		"oA": 0,
+		"oAP": "\/images\/maps\/waukegan.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/maps\/west-dundee-sm.jpg": {
+		"ft": 16384,
+		"iS": 94363,
+		"oA": 0,
+		"oAP": "\/images\/maps\/west-dundee-sm.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/maps\/west-dundee.jpg": {
+		"ft": 16384,
+		"iS": 365028,
+		"oA": 0,
+		"oAP": "\/images\/maps\/west-dundee.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/maps\/willow-springs-circuit.jpg": {
+		"ft": 16384,
+		"iS": 260880,
+		"oA": 0,
+		"oAP": "\/images\/maps\/willow-springs-circuit.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/maps\/willow-springs-parking.jpg": {
 		"ft": 16384,
 		"iS": 134937,
 		"oA": 0,
 		"oAP": "\/images\/maps\/willow-springs-parking.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/maps\/willow-springs-sm.jpg": {
+		"ft": 16384,
+		"iS": 115555,
+		"oA": 0,
+		"oAP": "\/images\/maps\/willow-springs-sm.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/maps\/willow-springs.jpg": {
+		"ft": 16384,
+		"iS": 479920,
+		"oA": 0,
+		"oAP": "\/images\/maps\/willow-springs.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2391,6 +2723,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/red\/ribbon-2016.png": {
+		"ft": 32768,
+		"iS": 29911,
+		"oA": 0,
+		"oAP": "\/images\/red\/ribbon-2016.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/red\/ribbon.png": {
+		"ft": 32768,
+		"iS": 30156,
+		"oA": 0,
+		"oAP": "\/images\/red\/ribbon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/red\/until-race-day.png": {
 		"ft": 32768,
 		"iS": 2342,
@@ -2423,6 +2777,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/ribbon-2016.png": {
+		"ft": 32768,
+		"iS": 29911,
+		"oA": 0,
+		"oAP": "\/images\/ribbon-2016.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/ribbon.png": {
+		"ft": 32768,
+		"iS": 30156,
+		"oA": 0,
+		"oAP": "\/images\/ribbon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/Riverside-Family-Ride.jpg": {
 		"ft": 16384,
 		"iS": 204677,
@@ -2431,6 +2807,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/images\/see-you.png": {
+		"ft": 32768,
+		"iS": 5426,
+		"oA": 0,
+		"oAP": "\/images\/see-you.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/images\/teammack.jpg": {
@@ -2618,90 +3005,108 @@
 	"\/js\/customizer.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/js\/customizer-min.js",
-		"oF": 1,
+		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
 	"\/js\/featherlight.gallery.min.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/js\/featherlight.gallery.min-min.js",
-		"oF": 1,
+		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
 	"\/js\/featherlight.min.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/js\/featherlight.min-min.js",
-		"oF": 1,
+		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
 	"\/js\/jquery-1.6.1.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/js\/jquery-1.6.1-min.js",
-		"oF": 1,
+		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
 	"\/js\/jquery-1.7.2.min.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/js\/jquery-1.7.2.min-min.js",
-		"oF": 1,
+		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
 	"\/js\/jquery.countdown1.2.min.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/js\/jquery.countdown1.2.min-min.js",
-		"oF": 1,
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/lightbox-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/lightbox-min-min.js",
+		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
 	"\/js\/lightbox.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/js\/lightbox-min.js",
-		"oF": 1,
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/navigation-ic-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/navigation-ic-min-min.js",
+		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
 	"\/js\/navigation-ic.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/js\/navigation-ic-min.js",
-		"oF": 1,
+		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
 	"\/js\/navigation.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/js\/navigation-min.js",
-		"oF": 1,
+		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
 	"\/js\/skip-link-focus-fix.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/js\/skip-link-focus-fix-min.js",
-		"oF": 1,
+		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},

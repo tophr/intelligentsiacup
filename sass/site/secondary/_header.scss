@@ -16,12 +16,28 @@
 
 #logo {
 	float:left;
-	height:79px;
-	width:420px;
-	margin:30px 0px 0px 0px;
+	//height:79px;
+	width: 40%;
+	margin:30px 0 0 0;
 	h1, p {
 		margin: 0;
 		padding: 0;
+	}
+}
+
+@media only screen and (min-width: 1041px) {
+#container-time {
+	
+}
+}
+
+@media only screen and (min-width: 761px) and (max-width: 1040px) {
+#logo,
+#container-time {
+	//width: 50%;
+}
+	#branding-inner {
+		width: 100%;
 	}
 }
 

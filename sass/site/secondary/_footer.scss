@@ -5,10 +5,43 @@
 	text-align: center;
 	color:#fff;
 	background: url(images/blue/bg-red.jpg) repeat left top;
-	ul {
-		padding: 0;
-		margin: 0 0 10px 0;
+	
+	a { 
+		color:#fff; 
+		text-decoration: none;
+		border-bottom: 1px dotted #fff;		
+		&:hover { color:#7a0005; }
 	}
+	li {
+		list-style: none;
+	}
+}
+
+#footer-left {
+	float: left;
+	width: 50%;
+	text-align: left;
+}
+
+#footer-right {
+	float: right;
+	width: 50%;
+	text-align: right;
+	a {
+		border: none;
+	}
+	.image {
+		border: none;
+		margin: -20px 0 0 0;
+		padding: 0;
+		background: none;
+		width: 200px;
+	}
+}
+
+#menu-footer {
+	padding: 0;
+	margin: 0 0 10px -6px;	
 	li {
 		display: inline;
 		padding: 0 1px 0 4px;
@@ -17,11 +50,5 @@
 		a {
 			margin: 6px;
 		}
-	}
-	a { 
-		color:#fff; 
-		text-decoration: none;
-		border-bottom: 1px dotted #fff;		
-		&:hover { color:#7a0005; }
 	}
 }
