@@ -1,8 +1,19 @@
 <?php get_header(); ?>
 
-<?php
-if ( has_post_thumbnail() ) { ?>
-<div id="hero" style="background-image: url('<?php the_post_thumbnail_url(); ?>');">
+<?php 
+$video = get_field('hero_video');
+if ($video) { ?>
+<!-- Video Background -->
+<div class="video-background">
+	<div class="video-background-wrapper">
+		<video class="fullscreen" autoplay muted loop poster="<?php the_field('hero_image'); ?>">
+			<source src="<?php echo $video; ?>" type="video/mp4">
+			Your browser does not support the video tag. </video>
+	</div>
+</div>
+<?php } ?>
+
+<div id="hero" <?php if (!$video) { ?>style="background-image: url('<?php the_field('hero_image'); ?>');" <?php } ?>>
 	<div id="hero-inner">		
 		<?php if ( get_field('hero_headline')) {
 			$headline = get_field('hero_headline');
@@ -11,9 +22,7 @@ if ( has_post_thumbnail() ) { ?>
 		} ?>		
 	</div>
 </div>
-<?php	
-} 
-?>
+
 
 <div id="container-body">
 	<div id="content">
@@ -40,7 +49,7 @@ if ( has_post_thumbnail() ) { ?>
 				?>
 
 				<?php
-				$latest_blog_posts = new WP_Query( array( 'posts_per_page' => 5 ) );
+				$latest_blog_posts = new WP_Query( array( 'posts_per_page' => 6 ) );
 
 				if ( $latest_blog_posts->have_posts() ) : while ( $latest_blog_posts->have_posts() ) : $latest_blog_posts->the_post();
 
@@ -49,6 +58,7 @@ if ( has_post_thumbnail() ) { ?>
 					?>
 					<article id="post-<?php the_ID(); ?>" <?php post_class('box'); ?>>
 						<header class="entry-header">
+							
 							<?php
 							
 							the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );							
@@ -59,6 +69,8 @@ if ( has_post_thumbnail() ) { ?>
 							</div><!-- .entry-meta -->
 							<?php //endif; ?>
 						</header><!-- .entry-header -->
+						
+						<?php the_post_thumbnail( 'featured_thumb' ); ?>
 
 						<div class="entry-content">
 							<?php
@@ -72,7 +84,7 @@ if ( has_post_thumbnail() ) { ?>
 							?>
 							
 							<a href="<?php echo get_permalink(); ?>">Continue reading <span class="meta-nav">&rarr;</span></a>
-							
+														
 						</div><!-- .entry-content -->
 
 						<!--<footer class="entry-footer">

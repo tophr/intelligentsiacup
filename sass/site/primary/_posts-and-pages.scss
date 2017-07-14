@@ -43,6 +43,33 @@
 	margin: 0 0 1.5em;
 }
 
+/* 
+** Fullscreen Video
+*/
+.video-background {
+  //  min-height: 70vh;
+    .video-background-wrapper {
+     /*  height: 70vh;
+		left: 0;
+		overflow: hidden;
+		pointer-events: none;
+		position: absolute;
+		top: 220px;
+		width: 100%;
+		z-index: 1;*/
+        video.fullscreen { 
+        /*  min-width: 100%;
+          min-height: 100%;*/
+			 object-fit: cover;
+			  width: 100vw;
+			  height: 60vh;
+			  //position: fixed;
+			  top: 0;
+			  left: 0;
+        }
+    }
+}
+
 /* Hero Image */
 #hero {
 	background: #000d23;
@@ -56,8 +83,15 @@
 }	
 
 .home #hero {
-	height: 100vh; 
-	margin-top: -220px;
+	//height: 70vh; 
+	//margin-top: -220px;	
+	position: absolute;
+	left: 0;
+	bottom: 20%;
+	margin-top: 0;
+	right: 0;
+	background: none;
+	
 }
 
 .header-image {
@@ -138,6 +172,34 @@ ul.box {
 ul.box li {
 	padding-bottom: 14px;
 }	
+
+
+.home {
+	#right .block {
+		float: left;
+		padding: 30px 0;
+	}
+	.title {
+		margin: -30px 0 30px;
+	}
+	.entry-title {
+		font-size: 1.5em;
+	}
+	.box {
+	float: left;
+	width: 46%;
+	margin: 0 2% 20px;
+		&:nth-child(even) {
+			clear: both;
+		}
+		&:nth-last-child(2) {
+			border-bottom: none;
+		}
+	}
+	.wp-post-image {
+		margin-bottom: 20px;
+	}
+}
 
 .entry-footer {
 	color: #666;

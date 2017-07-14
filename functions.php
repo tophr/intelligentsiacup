@@ -41,6 +41,7 @@ function intelligentsiacup_setup() {
 	 * @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
 	 */
 	add_theme_support( 'post-thumbnails' );
+	add_image_size('featured_thumb', 420, 160, true);
 
 	// This theme uses wp_nav_menu() in two locations.
 	register_nav_menus( array(
