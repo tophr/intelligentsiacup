@@ -1343,7 +1343,7 @@ object {
     display: none; }
   #hero {
     height: 200px; }
-  #hero-headline {
+  #hero-headline, #register-button a {
     font-size: 32px; }
   #right {
     float: none;
