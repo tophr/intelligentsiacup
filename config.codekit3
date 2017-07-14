@@ -63,6 +63,16 @@
 		"oF": 1,
 		"oS": 0
 		},
+	"\/css\/jquery-ui.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/jquery-ui.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/css\/lightbox.css": {
 		"aP": 1,
 		"bl": 0,
@@ -2681,9 +2691,9 @@
 	"\/js\/navigation-ic.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/navigation-ic-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 1,
 		"tS": 0
 		},
@@ -2702,6 +2712,15 @@
 		"oA": 0,
 		"oAP": "\/js\/skip-link-focus-fix-min.js",
 		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/tabs.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/js\/tabs-min.js",
+		"oF": 1,
 		"sC": 1,
 		"tS": 0
 		},
@@ -2747,6 +2766,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/page-nosidebar.php",
+		"oF": 0
+		},
+	"\/page-results.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-results.php",
 		"oF": 0
 		},
 	"\/page.php": {
