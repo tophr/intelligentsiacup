@@ -38,7 +38,7 @@
 			<div id="time">1</div>
 			<div id="big"><img src="<?php echo get_template_directory_uri(); ?>/images/blue/until-race-day.png" alt="Until Race Day" /></div>
 			<div id="ribbon"><img src="<?php echo get_template_directory_uri(); ?>/images/blue/ribbon.png" alt="Intelligentsia Cup Ribbon" /></div>
-			<div id="button" class="mobile"><div class="date">July 14&ndash;23, 2017</div> <!-- <a href="https://www.usacycling.org/register/2015-49" class="button" target="_blank">Register</a> --><span><a href="http://www.facebook.com/PrairieStateCyclingSeries"><img src="<?php echo get_template_directory_uri(); ?>/images/facebook-sm.png" alt="Follow us on Facebook!" height="34" /></a></span> <span><a href="https://twitter.com/prairiestatecyc"><img src="<?php echo get_template_directory_uri(); ?>/images/twitter-sm.png" alt="Follow us on Twitter!" height="34" /></a></span></div>
+			<div id="button" class="mobile"><div class="date">July 14&ndash;23, 2017</div> <span><a href="http://www.facebook.com/PrairieStateCyclingSeries"><img src="<?php echo get_template_directory_uri(); ?>/images/facebook-sm.png" alt="Follow us on Facebook!" height="34" /></a></span> <span><a href="https://twitter.com/prairiestatecyc"><img src="<?php echo get_template_directory_uri(); ?>/images/twitter-sm.png" alt="Follow us on Twitter!" height="34" /></a></span></div>
 		</div>
 	</div>
 

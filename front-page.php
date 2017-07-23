@@ -1,19 +1,14 @@
 <?php get_header(); ?>
 
-<?php 
-$video = get_field('hero_video');
-if ($video) { ?>
-<!-- Video Background -->
-<div class="video-background">
-	<div class="video-background-wrapper">
-		<video class="fullscreen" autoplay muted loop poster="<?php the_field('hero_image'); ?>">
-			<source src="<?php echo $video; ?>" type="video/mp4">
-			Your browser does not support the video tag. </video>
-	</div>
-</div>
-<?php } ?>
-
 <div id="hero" <?php if (!$video) { ?>style="background-image: url('<?php the_field('hero_image'); ?>');" <?php } ?>>
+	<?php 
+		$video = get_field('hero_video');
+		if ($video) { ?>	
+			<video id="hero-video" class="fullscreen" autoplay muted loop poster="<?php the_field('hero_image'); ?>">
+				<source src="<?php echo $video; ?>" type="video/mp4">
+				Your browser does not support the video tag. 
+			</video>	
+	<?php } ?>
 	<div id="hero-inner">		
 		<?php if ( get_field('hero_headline')) {
 			$headline = get_field('hero_headline');
