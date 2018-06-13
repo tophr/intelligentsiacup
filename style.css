@@ -903,13 +903,15 @@ html, body {
   font-family: 'Roboto Condensed', sans-serif;
   float: right;
   letter-spacing: .04vw;
-  margin: 20px 10px 8px 10px;
   font-weight: 700;
   font-style: italic;
   display: block;
   height: 6px;
   width: 40%;
   color: rgba(3, 29, 67, 0.9); }
+  @media only screen and (min-width: 761px) {
+    #dateline {
+      margin: 20px 10px 8px 10px; } }
 
 .cd-time {
   color: #000;
@@ -1383,6 +1385,8 @@ object {
     border: none;
     margin: 10px 0;
     padding: 0; }
+  .home .box {
+    width: auto; }
   .page-title, .title {
     margin: -15px -15px 15px -15px;
     height: auto; }
@@ -1398,9 +1402,9 @@ object {
   #logo {
     display: block;
     text-align: center;
-    padding: 20px 0 30px;
-    float: none;
     margin: 0 auto;
+    padding: 0;
+    float: none;
     height: auto;
     width: auto; }
   img {
@@ -1547,5 +1551,17 @@ object {
     white-space: nowrap; }
   a.button:hover {
     background: #d23c10; } }
+
+@media only screen and (max-width: 460px) {
+  #footer {
+    padding-top: 1em; }
+    #footer small {
+      line-height: 1;
+      display: inline-block;
+      margin-bottom: 10px; }
+  #footer-left,
+  #footer-right {
+    width: 100%;
+    text-align: center; } }
 
 /*# sourceMappingURL=style.css.map */

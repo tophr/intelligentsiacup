@@ -50,6 +50,10 @@ html, #main, #container-body, #main, #content-inner {
 	margin: 10px 0;
 	padding: 0;
 }
+	
+.home .box {
+	width: auto;
+}	
 
 .page-title, .title {
 	margin: -15px -15px 15px -15px;
@@ -73,9 +77,9 @@ html, #main, #container-body, #main, #content-inner {
 #logo {
 	display: block;
 	text-align: center;
-	padding: 20px 0 30px;
-	float: none;
 	margin: 0 auto;
+	padding: 0;
+	float: none;	
 	height: auto;
 	width: auto;
 }
@@ -268,4 +272,20 @@ a.button {
 a.button:hover {
 	background: #d23c10;
 }
+}
+
+@media only screen and (max-width: 460px) {
+	#footer {
+		padding-top: 1em;
+		small {
+			line-height: 1;
+			display: inline-block;
+			margin-bottom: 10px;
+		}
+	}
+	#footer-left,
+	#footer-right {
+		width: 100%;
+		text-align: center;
+	}
 }
