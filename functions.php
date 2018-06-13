@@ -128,7 +128,7 @@ add_action( 'widgets_init', 'intelligentsiacup_widgets_init' );
  * Enqueue scripts and styles.
  */
 function intelligentsiacup_scripts() {
-	wp_enqueue_style( 'intelligentsiacup-style', get_stylesheet_uri(), array(), '1112' );
+	wp_enqueue_style( 'intelligentsiacup-style', get_stylesheet_uri(), array(), '1.1.1' );
 	
 	wp_enqueue_style( 'lightbox', get_template_directory_uri() . '/css/lightbox.css'  );
 	
