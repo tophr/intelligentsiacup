@@ -42,6 +42,6 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php intelligentsiacup_entry_footer(); ?>
+		<?php //intelligentsiacup_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
