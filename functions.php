@@ -41,6 +41,7 @@ function intelligentsiacup_setup() {
 	 * @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
 	 */
 	add_theme_support( 'post-thumbnails' );
+	add_image_size('featured_thumb', 420, 160, true);
 
 	// This theme uses wp_nav_menu() in two locations.
 	register_nav_menus( array(
@@ -100,6 +101,26 @@ function intelligentsiacup_widgets_init() {
 		'before_title'  => '<h3 class="widget-title">',
 		'after_title'   => '</h3>',
 	) );
+	register_sidebar( array(
+		'name'          => esc_html__( 'Homepage Sidebar', 'intelligentsiacup' ),
+		'id'            => 'sidebar-home',
+		'description'   => esc_html__( 'Add homepage widgets here.', 'intelligentsiacup' ),
+		'class'			=> 'side',
+		'before_widget' => '<section id="%1$s" class="widget block %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h3 class="widget-title">',
+		'after_title'   => '</h3>',
+	) );
+	register_sidebar( array(
+		'name'          => esc_html__( 'Footer Widget', 'intelligentsiacup' ),
+		'id'            => 'sidebar-footer',
+		'description'   => esc_html__( 'Add footer widgets here.', 'intelligentsiacup' ),
+		//'class'			=> 'side',
+		//'before_widget' => '<section id="%1$s" class="widget block %2$s">',
+		//'after_widget'  => '</section>',
+		'before_title'  => '<h3 class="widget-title">',
+		'after_title'   => '</h3>',
+	) );
 }
 add_action( 'widgets_init', 'intelligentsiacup_widgets_init' );
 
@@ -107,7 +128,7 @@ add_action( 'widgets_init', 'intelligentsiacup_widgets_init' );
  * Enqueue scripts and styles.
  */
 function intelligentsiacup_scripts() {
-	wp_enqueue_style( 'intelligentsiacup-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'intelligentsiacup-style', get_stylesheet_uri(), array(), '1111' );
 	
 	wp_enqueue_style( 'lightbox', get_template_directory_uri() . '/css/lightbox.css'  );
 	
@@ -117,15 +138,22 @@ function intelligentsiacup_scripts() {
 	
 	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Open+Sans:600,400,300|Open+Sans+Condensed:300'  );
 
-	wp_enqueue_script( 'intelligentsiacup-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
+	//wp_enqueue_script( 'intelligentsiacup-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'intelligentsiacup-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
+	
+	if ( is_page_template( 'page-results.php' ) ) {
+    	wp_enqueue_style( 'jquery-ui-css', get_template_directory_uri() . '/css/jquery-ui.min.css'  );
+		wp_enqueue_script('jquery-ui', 'http://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js', array('jquery'), '1.8.8', true);
+		wp_enqueue_script('intelligentsiacup-tabs',  get_template_directory_uri() .'/js/tabs.js', array('jquery-ui'), '1', true);
+	}	
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
 }
 add_action( 'wp_enqueue_scripts', 'intelligentsiacup_scripts' );
+
 
 /**
  * Implement the Custom Header feature.

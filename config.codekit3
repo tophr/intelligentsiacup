@@ -84,11 +84,25 @@
 		"oAP": "\/footer.php",
 		"oF": 0
 		},
+	"\/front-page.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/front-page.php",
+		"oF": 0
+		},
 	"\/functions.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/functions.php",
+		"oF": 0
+		},
+	"\/header.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/header.php",
 		"oF": 0
 		},
 	"\/images\/bg-body.png": {
@@ -321,6 +335,17 @@
 		"iS": 565331,
 		"oA": 0,
 		"oAP": "\/images\/blue\/header-image.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/blue\/ic-logo.png": {
+		"ft": 32768,
+		"iS": 5167,
+		"oA": 0,
+		"oAP": "\/images\/blue\/ic-logo.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -3324,9 +3349,9 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/navigation-ic-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 1,
 		"tS": 0
 		},
@@ -3389,6 +3414,20 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/LICENSE",
+		"oF": 0
+		},
+	"\/page-nosidebar.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-nosidebar.php",
+		"oF": 0
+		},
+	"\/page-results.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-results.php",
 		"oF": 0
 		},
 	"\/page.php": {

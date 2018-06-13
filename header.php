@@ -23,36 +23,39 @@
 <body <?php body_class(); ?>>	
 <div id="container-header">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'intelligentsiacup' ); ?></a>
-	<div id="branding">
-		<div id="branding-inner">
-			<div id="logo">
-				<?php
-				if ( is_front_page() ) : ?>
-					<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_template_directory_uri(); ?>/images/blue/ic-logo.png" class="logo" alt="<?php bloginfo( 'name' ); ?>" /></a></h1>
-				<?php else : ?>
-					<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_template_directory_uri(); ?>/images/blue/ic-logo.png" class="logo" alt="<?php bloginfo( 'name' ); ?>" /></a></p>
-				<?php
-				endif;
-				?>
-			</div>
-			<div id="dateline">
-				<div>July 20&ndash;29, 2018</div>			
-			</div>		
-			<div id="button" class="mobile">
-				<span><a href="http://www.facebook.com/PrairieStateCyclingSeries"><img src="<?php echo get_template_directory_uri(); ?>/images/facebook-sm.png" alt="Follow us on Facebook!" height="34" /></a></span> <span><a href="https://twitter.com/prairiestatecyc"><img src="<?php echo get_template_directory_uri(); ?>/images/twitter-sm.png" alt="Follow us on Twitter!" height="34" /></a></span>
-			</div>
+	<div id="branding"><div id="branding-inner">
+		<div id="logo">
+			<?php
+			if ( is_front_page() ) : ?>
+				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_template_directory_uri(); ?>/images/blue/ic-logo.png" class="logo" alt="<?php bloginfo( 'name' ); ?>" /></a></h1>
+			<?php else : ?>
+				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_template_directory_uri(); ?>/images/blue/ic-logo.png" class="logo" alt="<?php bloginfo( 'name' ); ?>" /></a></p>
+			<?php
+			endif;
+			?>
+		</div>
+<div id="dateline">
+	<div>July 20&ndash;29, 2018</div>
+			
+</div>
+		
+			<div id="button" class="mobile"> <span><a href="http://www.facebook.com/PrairieStateCyclingSeries"><img src="<?php echo get_template_directory_uri(); ?>/images/facebook-sm.png" alt="Follow us on Facebook!" height="34" /></a></span> <span><a href="https://twitter.com/prairiestatecyc"><img src="<?php echo get_template_directory_uri(); ?>/images/twitter-sm.png" alt="Follow us on Twitter!" height="34" /></a></span></div>
 		</div>
 	</div>
-</div>
-	
-<nav id="navigation">
-	<img src="<?php echo get_template_directory_uri(); ?>/images/ic-icon.svg" class="icon-logo" alt="" />
-	<span class="menu-link"><a href="#menu">Main Menu</a></span>
-	<div id="navigation-inner">
-
-		<?php wp_nav_menu( array( 'menu_class' => 'menudo', 'container_class' => 'menu', 'container_id' => 'nav', 'theme_location' => 'menu-1' ) ); ?>
 
 	</div>
-</nav>
 
-<div class="cleaner"></div>
+	
+	<nav id="navigation">
+		<img src="<?php echo get_template_directory_uri(); ?>/images/ic-icon.svg" class="icon-logo" alt="" />
+		<span class="menu-link"><a href="#menu">Main Menu</a></span>
+		<div id="navigation-inner">
+							
+			<?php wp_nav_menu( array( 'menu_class' => 'menudo', 'container_class' => 'menu', 'container_id' => 'nav', 'theme_location' => 'menu-1' ) ); ?>
+			
+		</div>
+	</nav>
+	
+	<div class="cleaner"></div>
+	
+<

@@ -13,13 +13,23 @@
 
 </div>
 
-<div id="footer-border"></div>
 <footer id="footer" class="site-footer" role="contentinfo">
-	
-	<?php wp_nav_menu( array( 'theme_location' => 'menu-footer' ) ); ?>
-	
-	<p>Copyright &copy; <?php echo date('Y'); ?> Prairie State Cycling Series, LLC. All rights reserved.<br /><strong>Phone</strong>: 847.644.0277 <strong>Email</strong>: <a href="mailto:info@intelligentsiacup.com">info@intelligentsiacup.com</a></p>
+	<div class="container">
+		<div id="footer-left">
+			<?php wp_nav_menu( array( 'theme_location' => 'menu-footer' ) ); ?>
 
+			<p><strong>Phone</strong>: 847.644.0277 <strong>Email</strong>: <a href="mailto:info@intelligentsiacup.com">info@intelligentsiacup.com</a></p>
+			
+			<p><small>&copy; <?php echo date('Y'); ?> Prairie State Cycling Series, LLC. All rights reserved.</small></p>	
+		</div>
+		<div id="footer-right">
+			<?php if ( !is_active_sidebar( 'sidebar-footer' ) ) {
+					return;
+				}			
+				dynamic_sidebar( 'sidebar-footer' );			
+			 ?>	
+		</div>
+	</div>	
 </footer>
 
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-1.7.2.min.js"></script>
