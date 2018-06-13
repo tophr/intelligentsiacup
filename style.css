@@ -290,6 +290,8 @@ big {
 .small {
   font-size: 90%; }
 
+
+
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
@@ -483,7 +485,7 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-  color: royalblue; }
+  color: navy; }
   a:visited {
     color: purple; }
   a:hover, a:focus, a:active {
@@ -593,7 +595,9 @@ a.button:hover {
       position: relative;
       float: left;
       margin: 0;
-      padding: 0; }
+      padding: 0;
+      width: 100%;
+      text-align: center; }
     #navigation ul a {
       display: block;
       color: #fff;
@@ -602,8 +606,19 @@ a.button:hover {
       font-weight: 400;
       font-size: 110%;
       line-height: 48px;
-      padding: 0 30px;
-      font-family: 'Open Sans', Trebuchet MS, sans-serif; }
+      font-family: 'Open Sans', Trebuchet MS, sans-serif;
+      transition: all 0.4s ease; }
+  #navigation.fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 99999;
+    height: 50px;
+    padding-top: 0; }
+
+.admin-bar #navigation.fixed {
+  top: 32px; }
 
 #schedule #navigation ul li.schedule, #schedule #navigation ul li.schedule a:hover,
 #racers #navigation ul li.racers, #racers #navigation ul li.racers a:hover,
@@ -621,8 +636,8 @@ a.button:hover {
   background: url(images/blue/bg-darkred.jpg) repeat-x left top; }
 
 #navigation ul a:hover {
-  color: #ffffff;
-  background: url(images/blue/bg-darkred.jpg) repeat-x left top; }
+  color: #fff;
+  background-color: #c00; }
 
 #navigation ul ul {
   z-index: 1;
@@ -640,7 +655,7 @@ a.button:hover {
   float: none; }
 
 #navigation ul ul a:hover {
-  color: #ffffff;
+  color: #fff;
   background: url(images/blue/bg-darkred.jpg) repeat-x left top; }
 
 #navigation ul ul a {
@@ -655,6 +670,26 @@ a.button:hover {
 
 #navigation ul li:hover > ul {
   display: block; }
+
+#navigation .icon-logo {
+  display: none; }
+
+@media only screen and (min-width: 761px) {
+  #navigation ul ul {
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s linear 300ms, opacity 300ms; }
+  #navigation ul li:hover > ul {
+    opacity: 1;
+    visibility: visible;
+    transition: visibility 0s linear 0s, opacity 300ms; }
+  #navigation.fixed .icon-logo {
+    display: block;
+    position: absolute;
+    width: 61px;
+    top: 3px;
+    left: 10px; } }
 
 /*--------------------------------------------------------------
 # Accessibility
@@ -753,7 +788,7 @@ html, body {
   background-repeat: repeat;
   background-position: center top; }
 
-#container-body, #navigation-inner, #hero-inner, #branding-inner {
+#container-body, #navigation-inner, #hero-inner, #branding-inner, .container {
   padding: 0;
   margin-left: auto;
   margin-right: auto;
@@ -794,6 +829,10 @@ html, body {
 # Header & Footer
 --------------------------------------------------------------*/
 /* Branding */
+#container-header {
+  position: relative;
+  z-index: 10; }
+
 #branding {
   font-family: 'Open Sans', Trebuchet MS, sans-serif;
   text-transform: uppercase;
@@ -804,12 +843,15 @@ html, body {
 
 #logo {
   float: left;
-  height: 64px;
-  width: 340px;
-  margin: 40px 0px 0px 0px; }
+  width: 40%;
+  margin: 20px 0px 20px 0; }
   #logo h1, #logo p {
     margin: 0;
-    padding: 0; }
+    padding: 10px; }
+
+@media only screen and (min-width: 761px) and (max-width: 1040px) {
+  #branding-inner {
+    width: 100%; } }
 
 @media only screen and (min-width: 761px) {
   #container-time {
@@ -826,6 +868,19 @@ html, body {
   height: 6px;
   width: 531px;
   color: #ed1c24; }
+
+#dateline {
+  font-size: 4vw;
+	font-family: 'Roboto Condensed', sans-serif;
+  float: right;
+  letter-spacing: .04vw;
+  margin: 30px 10px 8px 10px;
+
+  font-weight: 200;
+  display: block;
+  height: 6px;
+  width: 40%;
+  color: rgba(3, 29, 67, .9); }
 
 .cd-time {
   color: #000;
@@ -861,24 +916,47 @@ html, body {
   padding: 2em 0 1em 0;
   margin: 0 auto;
   text-align: center;
-  color: #320103;
+  color: #fff;
   background: url(images/blue/bg-red.jpg) repeat left top; }
-  #footer ul {
-    padding: 0.5em 0 0 0;
-    margin: 0; }
+  #footer a {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px dotted #fff; }
+    #footer a:hover {
+      color: #7a0005; }
   #footer li {
+    list-style: none; }
+
+#footer-left {
+  float: left;
+  width: 50%;
+  text-align: left; }
+
+#footer-right {
+  float: right;
+  width: 50%;
+  text-align: right; }
+  #footer-right a {
+    border: none; }
+  #footer-right .image {
+    border: none;
+    margin: -20px 0 0 0;
+    padding: 0;
+    background: none;
+    width: 200px; }
+
+#menu-footer {
+  padding: 0;
+  margin: 0 0 10px -6px; }
+  #menu-footer li {
     display: inline;
     padding: 0 1px 0 4px;
-    border-left: 1px dotted #7a0005; }
-    #footer li:first-child {
+    border-left: 1px solid #fff; }
+    #menu-footer li:first-child {
       border: none;
       padding-left: 0; }
-  #footer a {
-    color: #ffffff;
-    text-decoration: none; }
-    #footer a:hover {
-      color: #7a0005;
-      text-decoration: none; }
+    #menu-footer li a {
+      margin: 6px; }
 
 /*--------------------------------------------------------------
 # Widgets
@@ -892,7 +970,8 @@ html, body {
 /* Sidebar */
 #left .block {
   background: #f1f1f1;
-  font-size: 14px; }
+  font-size: 14px;
+  box-shadow: 0px 0px 10px 0px #00050c; }
   #left .block ul {
     padding: 0;
     margin: -15px -30px -30px;
@@ -925,6 +1004,23 @@ html, body {
   text-transform: uppercase;
   background: #e7161e; }
 
+.sidebar-nav {
+  list-style: none;
+  margin: 0 0 20px 0;
+  padding: 0; }
+  .sidebar-nav li a {
+    display: block;
+    padding: 15px 20px;
+    margin-bottom: 4px;
+    background: rgba(0, 5, 12, 0.6);
+    color: #fff; }
+    .sidebar-nav li a:hover {
+      background: #e60c1f; }
+    .sidebar-nav li a:last-child {
+      border-bottom: none; }
+  .sidebar-nav ul {
+    display: none; }
+
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
@@ -943,8 +1039,8 @@ html, body {
   display: inline; }
 
 .entry-title {
-  margin-bottom: 0;
-  font-size: 2.5em;
+  margin-bottom: 10px;
+  font-size: 2em;
   line-height: 1; }
 
 .entry-meta {
@@ -964,13 +1060,23 @@ html, body {
   background: #000d23;
   background-position: center center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   height: 560px;
   background-size: cover;
   margin-bottom: 30px;
   position: relative; }
 
+.home #hero {
+  height: 50vh;
+  overflow: hidden; }
+
 .header-image {
   padding: 8px 8px 0 8px; }
+
+#hero-video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%; }
 
 #register-button a {
   font-family: "Open Sans Condensed", Trebuchet MS, sans-serif;
@@ -979,7 +1085,7 @@ html, body {
   font-weight: 300;
   padding: 0 9px 2px 9px;
   overflow: hidden;
-  font-size: 54px;
+  font-size: 90px;
   line-height: 1;
   position: absolute;
   background: rgba(15, 36, 69, 0.8);
@@ -1003,7 +1109,7 @@ html, body {
 /* Body */
 .page-title, .title {
   margin: -30px -30px 30px;
-  color: #ffffff;
+  color: #fff;
   font-weight: 300;
   text-transform: uppercase;
   font-size: 24px;
@@ -1014,14 +1120,18 @@ h4.title {
   margin-top: 0.25em; }
 
 #right .block {
-  background: #fff; }
+  background: #fff;
+  box-shadow: 0px 0px 10px 0px #00050c; }
 
 .box {
-  border: 1px solid #d6d6d6;
-  padding: 24px 29px;
+  border-bottom: 1px solid #d6d6d6;
+  padding-bottom: 29px;
   margin-top: 1.25em; }
   .box p:last-child {
     margin-bottom: 0; }
+
+.block .box:last-child {
+  border-bottom: none; }
 
 ul.box {
   list-style-type: none;
@@ -1030,6 +1140,28 @@ ul.box {
 
 ul.box li {
   padding-bottom: 14px; }
+
+.home #right .block {
+  float: left;
+  padding: 30px 0; }
+
+.home .title {
+  margin: -30px 0 30px; }
+
+.home .entry-title {
+  font-size: 1.5em; }
+
+.home .box {
+  float: left;
+  width: 46%;
+  margin: 0 2% 20px; }
+  .home .box:nth-child(even) {
+    clear: both; }
+  .home .box:nth-last-child(2) {
+    border-bottom: none; }
+
+.home .wp-post-image {
+  margin-bottom: 20px; }
 
 .entry-footer {
   color: #666;
@@ -1206,7 +1338,7 @@ object {
     display: none; }
   #hero {
     height: 200px; }
-  #hero-headline {
+  #hero-headline, #register-button a {
     font-size: 32px; }
   #right {
     float: none;
@@ -1386,3 +1518,31 @@ object {
     background: #d23c10; } }
 
 /*# sourceMappingURL=style.css.map */
+
+
+.blinkText {
+
+    animation:1s blinker linear infinite;
+    -webkit-animation:1s blinker linear infinite;
+    -moz-animation:1s blinker linear infinite;
+	animation-iteration-count: 10;
+     color: red;
+    }
+
+    @-moz-keyframes blinker {  
+     0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+     }
+
+    @-webkit-keyframes blinker {  
+     0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+     }
+
+    @keyframes blinker {  
+     0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+     }

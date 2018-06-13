@@ -18,7 +18,7 @@ if ( !is_active_sidebar( 'sidebar-1' ) ) {
 <!-- <div class="block">
 <h3>Online Registration</h3>
 <ul class="side">
-	<li class="first"><a href="https://www.usacycling.org/register/2016-64" target="_blank" class="button">Register Today!</a>
+	<li class="first"><a href="http://www.bikereg.com/intelligentsiacup" target="_blank" class="button">Register Today!</a>
 	</li>
 </ul>
 

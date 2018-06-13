@@ -12,7 +12,7 @@
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
-
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700i" rel="stylesheet">
 <!--[if IE]>
 	<link href="<?php echo get_template_directory_uri(); ?>/css/ie.css" rel="stylesheet" type="text/css" media="screen" />
 	<![endif]-->
@@ -34,11 +34,12 @@
 			endif;
 			?>
 		</div>
-		<div id="container-time">
-			<div id="time">1</div>
-			<div id="big"><img src="<?php echo get_template_directory_uri(); ?>/images/blue/until-race-day.png" alt="Until Race Day" /></div>
-			<div id="ribbon"><img src="<?php echo get_template_directory_uri(); ?>/images/blue/ribbon.png" alt="Intelligentsia Cup Ribbon" /></div>
-			<div id="button" class="mobile"><div class="date">July 14-23, 2017</div> <!-- <a href="https://www.usacycling.org/register/2015-49" class="button" target="_blank">Register</a> --><span><a href="http://www.facebook.com/PrairieStateCyclingSeries"><img src="<?php echo get_template_directory_uri(); ?>/images/facebook-sm.png" alt="Follow us on Facebook!" height="34" /></a></span> <span><a href="https://twitter.com/prairiestatecyc"><img src="<?php echo get_template_directory_uri(); ?>/images/twitter-sm.png" alt="Follow us on Twitter!" height="34" /></a></span></div>
+<div id="dateline">
+	<div>July 20&ndash;29, 2018</div>
+			
+</div>
+		
+			<div id="button" class="mobile"> <span><a href="http://www.facebook.com/PrairieStateCyclingSeries"><img src="<?php echo get_template_directory_uri(); ?>/images/facebook-sm.png" alt="Follow us on Facebook!" height="34" /></a></span> <span><a href="https://twitter.com/prairiestatecyc"><img src="<?php echo get_template_directory_uri(); ?>/images/twitter-sm.png" alt="Follow us on Twitter!" height="34" /></a></span></div>
 		</div>
 	</div>
 
@@ -46,6 +47,7 @@
 
 	
 	<nav id="navigation">
+		<img src="<?php echo get_template_directory_uri(); ?>/images/ic-icon.svg" class="icon-logo" alt="" />
 		<span class="menu-link"><a href="#menu">Main Menu</a></span>
 		<div id="navigation-inner">
 							
@@ -56,4 +58,4 @@
 	
 	<div class="cleaner"></div>
 	
-</div>
+<
