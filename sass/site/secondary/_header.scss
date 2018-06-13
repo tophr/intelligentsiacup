@@ -1,4 +1,7 @@
 /* Branding */
+#container-header {
+  position: relative;
+  z-index: 10; }
 
 #branding {
 	font-family: 'Open Sans', Trebuchet MS, sans-serif;
@@ -11,14 +14,17 @@
 
 #logo {
 	float:left;
-	height:64px;
-	width:340px;
-	margin:40px 0px 0px 0px;
+	width: 40%;
+  margin: 20px 0px 20px 0;
 	h1, p {
 		margin: 0;
-		padding: 0;
+		padding: 10px;
 	}
 }
+
+@media only screen and (min-width: 761px) and (max-width: 1040px) {
+  #branding-inner {
+    width: 100%; } }
 
 @media only screen and (min-width: 761px) {
 #container-time {
@@ -32,13 +38,24 @@
 	float:right;
 	letter-spacing:.04em;
 	margin:12px -10px 8px 0;
-	/*1font-weight: 600;*/
 	display: block;
 	height:6px;
 	width:531px;
 	color:#ed1c24;
 }
-
+#dateline {
+  font-size: 4vw;
+  font-family: 'Roboto Condensed', sans-serif;
+  float: right;
+  letter-spacing: .04vw;
+  margin: 20px 10px 8px 10px;
+  font-weight: 700;
+  font-style: italic;
+  display: block;
+  height: 6px;
+  width: 40%;
+  color: rgba(3, 29, 67, 0.9); 
+}
 .cd-time {
 	color:#000;
 	font-weight:300;

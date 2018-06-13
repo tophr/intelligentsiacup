@@ -7,27 +7,31 @@
 		"uuidString": "66415E05-71CC-4AA5-A3E0-ED05550C8278"
 		}
 	],
-"creatorBuild": "25849",
+"creatorBuild": "26680",
 "files": {
 	"\/.gitignore": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
 	"\/404.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/404.php",
 		"oF": 0
 		},
 	"\/archive.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/archive.php",
 		"oF": 0
 		},
 	"\/comments.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/comments.php",
@@ -74,27 +78,17 @@
 		"oS": 0
 		},
 	"\/footer.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/footer.php",
 		"oF": 0
 		},
-	"\/front-page.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/front-page.php",
-		"oF": 0
-		},
 	"\/functions.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/functions.php",
-		"oF": 0
-		},
-	"\/header.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/header.php",
 		"oF": 0
 		},
 	"\/images\/bg-body.png": {
@@ -127,6 +121,7 @@
 	"\/images\/bg-footer.jpg": {
 		"ft": 16384,
 		"iS": 37929,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/bg-footer.jpg",
 		"oF": 0,
@@ -148,6 +143,7 @@
 	"\/images\/bg-header.jpg": {
 		"ft": 16384,
 		"iS": 89187,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/bg-header.jpg",
 		"oF": 0,
@@ -169,6 +165,7 @@
 	"\/images\/bg-nav.jpg": {
 		"ft": 16384,
 		"iS": 5212,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/bg-nav.jpg",
 		"oF": 0,
@@ -201,6 +198,7 @@
 	"\/images\/bg-subnav.jpg": {
 		"ft": 16384,
 		"iS": 56265,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/bg-subnav.jpg",
 		"oF": 0,
@@ -211,6 +209,7 @@
 	"\/images\/bg-subnav2.jpg": {
 		"ft": 16384,
 		"iS": 56198,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/bg-subnav2.jpg",
 		"oF": 0,
@@ -232,6 +231,7 @@
 	"\/images\/blue\/bg-blue.jpg": {
 		"ft": 16384,
 		"iS": 73817,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/blue\/bg-blue.jpg",
 		"oF": 0,
@@ -242,6 +242,7 @@
 	"\/images\/blue\/bg-darkred.jpg": {
 		"ft": 16384,
 		"iS": 64337,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/blue\/bg-darkred.jpg",
 		"oF": 0,
@@ -252,6 +253,7 @@
 	"\/images\/blue\/bg-header.jpg": {
 		"ft": 16384,
 		"iS": 89187,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/blue\/bg-header.jpg",
 		"oF": 0,
@@ -262,6 +264,7 @@
 	"\/images\/blue\/bg-lightblue.jpg": {
 		"ft": 16384,
 		"iS": 64286,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/blue\/bg-lightblue.jpg",
 		"oF": 0,
@@ -272,6 +275,7 @@
 	"\/images\/blue\/bg-red.jpg": {
 		"ft": 16384,
 		"iS": 64376,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/blue\/bg-red.jpg",
 		"oF": 0,
@@ -317,17 +321,6 @@
 		"iS": 565331,
 		"oA": 0,
 		"oAP": "\/images\/blue\/header-image.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/blue\/ic-logo.png": {
-		"ft": 32768,
-		"iS": 13551,
-		"oA": 0,
-		"oAP": "\/images\/blue\/ic-logo.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -381,6 +374,7 @@
 	"\/images\/fyxation.jpg": {
 		"ft": 16384,
 		"iS": 118323,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/fyxation.jpg",
 		"oF": 0,
@@ -391,6 +385,7 @@
 	"\/images\/fyxation2015.jpg": {
 		"ft": 16384,
 		"iS": 246454,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/fyxation2015.jpg",
 		"oF": 0,
@@ -401,6 +396,7 @@
 	"\/images\/GlenEllynPoster-T.Zurawski.jpg": {
 		"ft": 16384,
 		"iS": 384160,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/GlenEllynPoster-T.Zurawski.jpg",
 		"oF": 0,
@@ -411,6 +407,7 @@
 	"\/images\/header-image-2012.jpg": {
 		"ft": 16384,
 		"iS": 191981,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/header-image-2012.jpg",
 		"oF": 0,
@@ -421,6 +418,7 @@
 	"\/images\/header-image-2012b.jpg": {
 		"ft": 16384,
 		"iS": 210468,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/header-image-2012b.jpg",
 		"oF": 0,
@@ -431,6 +429,7 @@
 	"\/images\/header-image-2013.jpg": {
 		"ft": 16384,
 		"iS": 166986,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/header-image-2013.jpg",
 		"oF": 0,
@@ -441,6 +440,7 @@
 	"\/images\/header-image-2014.jpg": {
 		"ft": 16384,
 		"iS": 157098,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/header-image-2014.jpg",
 		"oF": 0,
@@ -451,6 +451,7 @@
 	"\/images\/header-image.jpg": {
 		"ft": 16384,
 		"iS": 146103,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/header-image.jpg",
 		"oF": 0,
@@ -480,6 +481,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/ic-icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/ic-icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/images\/ic-logo-2016.png": {
 		"ft": 32768,
 		"iS": 13551,
@@ -494,6 +505,7 @@
 	"\/images\/ic-logo-dark.jpg": {
 		"ft": 16384,
 		"iS": 48683,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/ic-logo-dark.jpg",
 		"oF": 0,
@@ -567,6 +579,7 @@
 	"\/images\/logos\/19YouthFoundation-logo.jpg": {
 		"ft": 16384,
 		"iS": 7679,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/19YouthFoundation-logo.jpg",
 		"oF": 0,
@@ -577,6 +590,7 @@
 	"\/images\/logos\/670score-logo.jpg": {
 		"ft": 16384,
 		"iS": 17675,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/670score-logo.jpg",
 		"oF": 0,
@@ -587,6 +601,7 @@
 	"\/images\/logos\/acceleratedrehab-logo.jpg": {
 		"ft": 16384,
 		"iS": 18111,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/acceleratedrehab-logo.jpg",
 		"oF": 0,
@@ -597,6 +612,7 @@
 	"\/images\/logos\/arcedium-logo.jpg": {
 		"ft": 16384,
 		"iS": 5168,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/arcedium-logo.jpg",
 		"oF": 0,
@@ -607,6 +623,7 @@
 	"\/images\/logos\/argus-logo.jpg": {
 		"ft": 16384,
 		"iS": 22907,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/argus-logo.jpg",
 		"oF": 0,
@@ -617,6 +634,7 @@
 	"\/images\/logos\/athletico-logo.jpg": {
 		"ft": 16384,
 		"iS": 12495,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/athletico-logo.jpg",
 		"oF": 0,
@@ -627,6 +645,7 @@
 	"\/images\/logos\/att-logo.jpg": {
 		"ft": 16384,
 		"iS": 11357,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/att-logo.jpg",
 		"oF": 0,
@@ -637,6 +656,7 @@
 	"\/images\/logos\/bahati-logo.jpg": {
 		"ft": 16384,
 		"iS": 17293,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/bahati-logo.jpg",
 		"oF": 0,
@@ -647,6 +667,7 @@
 	"\/images\/logos\/bapa-logo.jpg": {
 		"ft": 16384,
 		"iS": 11508,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/bapa-logo.jpg",
 		"oF": 0,
@@ -657,6 +678,7 @@
 	"\/images\/logos\/bbvp-large-logo.jpg": {
 		"ft": 16384,
 		"iS": 27897,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/bbvp-large-logo.jpg",
 		"oF": 0,
@@ -667,6 +689,7 @@
 	"\/images\/logos\/bbvp-logo.jpg": {
 		"ft": 16384,
 		"iS": 7294,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/bbvp-logo.jpg",
 		"oF": 0,
@@ -677,6 +700,7 @@
 	"\/images\/logos\/beacon-logo.jpg": {
 		"ft": 16384,
 		"iS": 8157,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/beacon-logo.jpg",
 		"oF": 0,
@@ -687,6 +711,7 @@
 	"\/images\/logos\/beverly-logo.jpg": {
 		"ft": 16384,
 		"iS": 23867,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/beverly-logo.jpg",
 		"oF": 0,
@@ -697,6 +722,7 @@
 	"\/images\/logos\/beverlybank-logo.jpg": {
 		"ft": 16384,
 		"iS": 10581,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/beverlybank-logo.jpg",
 		"oF": 0,
@@ -707,6 +733,7 @@
 	"\/images\/logos\/beverlybikeski-logo.jpg": {
 		"ft": 16384,
 		"iS": 11320,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/beverlybikeski-logo.jpg",
 		"oF": 0,
@@ -717,6 +744,7 @@
 	"\/images\/logos\/beverlyreview-logo.jpg": {
 		"ft": 16384,
 		"iS": 9381,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/beverlyreview-logo.jpg",
 		"oF": 0,
@@ -727,6 +755,7 @@
 	"\/images\/logos\/bhanimal-logo.jpg": {
 		"ft": 16384,
 		"iS": 18631,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/bhanimal-logo.jpg",
 		"oF": 0,
@@ -737,6 +766,7 @@
 	"\/images\/logos\/bikeflights-logo.jpg": {
 		"ft": 16384,
 		"iS": 7955,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/bikeflights-logo.jpg",
 		"oF": 0,
@@ -747,6 +777,7 @@
 	"\/images\/logos\/bikehaven-logo.jpg": {
 		"ft": 16384,
 		"iS": 7602,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/bikehaven-logo.jpg",
 		"oF": 0,
@@ -757,6 +788,7 @@
 	"\/images\/logos\/bikehub-logo.jpg": {
 		"ft": 16384,
 		"iS": 12556,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/bikehub-logo.jpg",
 		"oF": 0,
@@ -775,6 +807,7 @@
 	"\/images\/logos\/binnys-logo.jpg": {
 		"ft": 16384,
 		"iS": 4914,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/binnys-logo.jpg",
 		"oF": 0,
@@ -785,6 +818,7 @@
 	"\/images\/logos\/bistro-one-west-logo.jpg": {
 		"ft": 16384,
 		"iS": 12595,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/bistro-one-west-logo.jpg",
 		"oF": 0,
@@ -795,6 +829,7 @@
 	"\/images\/logos\/blue-goose-logo.jpg": {
 		"ft": 16384,
 		"iS": 11145,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/blue-goose-logo.jpg",
 		"oF": 0,
@@ -805,6 +840,7 @@
 	"\/images\/logos\/blueisland-logo.jpg": {
 		"ft": 16384,
 		"iS": 13503,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/blueisland-logo.jpg",
 		"oF": 0,
@@ -815,6 +851,7 @@
 	"\/images\/logos\/bmo-harris-logo.jpg": {
 		"ft": 16384,
 		"iS": 2539,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/bmo-harris-logo.jpg",
 		"oF": 0,
@@ -825,6 +862,7 @@
 	"\/images\/logos\/braverman-logo.jpg": {
 		"ft": 16384,
 		"iS": 11299,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/braverman-logo.jpg",
 		"oF": 0,
@@ -835,6 +873,7 @@
 	"\/images\/logos\/brf-logo.jpg": {
 		"ft": 16384,
 		"iS": 10162,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/brf-logo.jpg",
 		"oF": 0,
@@ -845,6 +884,7 @@
 	"\/images\/logos\/brf-sidebar.jpg": {
 		"ft": 16384,
 		"iS": 17357,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/brf-sidebar.jpg",
 		"oF": 0,
@@ -855,6 +895,7 @@
 	"\/images\/logos\/bull-bear-logo.jpg": {
 		"ft": 16384,
 		"iS": 6554,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/bull-bear-logo.jpg",
 		"oF": 0,
@@ -865,6 +906,7 @@
 	"\/images\/logos\/cacchillo-logo.jpg": {
 		"ft": 16384,
 		"iS": 3149,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/cacchillo-logo.jpg",
 		"oF": 0,
@@ -875,6 +917,7 @@
 	"\/images\/logos\/caroutlet-logo.jpg": {
 		"ft": 16384,
 		"iS": 15649,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/caroutlet-logo.jpg",
 		"oF": 0,
@@ -885,6 +928,7 @@
 	"\/images\/logos\/chicagocrit-logo.jpg": {
 		"ft": 16384,
 		"iS": 19798,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/chicagocrit-logo.jpg",
 		"oF": 0,
@@ -895,6 +939,7 @@
 	"\/images\/logos\/clarity-logo.jpg": {
 		"ft": 16384,
 		"iS": 10621,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/clarity-logo.jpg",
 		"oF": 0,
@@ -905,6 +950,7 @@
 	"\/images\/logos\/classicscion-logo.jpg": {
 		"ft": 16384,
 		"iS": 22252,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/classicscion-logo.jpg",
 		"oF": 0,
@@ -915,6 +961,7 @@
 	"\/images\/logos\/clpd-logo.jpg": {
 		"ft": 16384,
 		"iS": 12174,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/clpd-logo.jpg",
 		"oF": 0,
@@ -925,6 +972,7 @@
 	"\/images\/logos\/computershare-logo.jpg": {
 		"ft": 16384,
 		"iS": 9699,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/computershare-logo.jpg",
 		"oF": 0,
@@ -935,6 +983,7 @@
 	"\/images\/logos\/countryfinancial-logo.jpg": {
 		"ft": 16384,
 		"iS": 14077,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/countryfinancial-logo.jpg",
 		"oF": 0,
@@ -945,6 +994,7 @@
 	"\/images\/logos\/countyfair-logo.jpg": {
 		"ft": 16384,
 		"iS": 5516,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/countyfair-logo.jpg",
 		"oF": 0,
@@ -955,6 +1005,7 @@
 	"\/images\/logos\/courtyard-logo.jpg": {
 		"ft": 16384,
 		"iS": 6574,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/courtyard-logo.jpg",
 		"oF": 0,
@@ -965,6 +1016,7 @@
 	"\/images\/logos\/crystallake-logo.jpg": {
 		"ft": 16384,
 		"iS": 20827,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/crystallake-logo.jpg",
 		"oF": 0,
@@ -975,6 +1027,7 @@
 	"\/images\/logos\/cuzins-logo.jpg": {
 		"ft": 16384,
 		"iS": 19453,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/cuzins-logo.jpg",
 		"oF": 0,
@@ -985,6 +1038,7 @@
 	"\/images\/logos\/cycleops-logo.jpg": {
 		"ft": 16384,
 		"iS": 11735,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/cycleops-logo.jpg",
 		"oF": 0,
@@ -995,6 +1049,7 @@
 	"\/images\/logos\/deerpathgc-logo.jpg": {
 		"ft": 16384,
 		"iS": 17706,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/deerpathgc-logo.jpg",
 		"oF": 0,
@@ -1005,6 +1060,7 @@
 	"\/images\/logos\/dgvb-logo.jpg": {
 		"ft": 16384,
 		"iS": 15138,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/dgvb-logo.jpg",
 		"oF": 0,
@@ -1015,6 +1071,7 @@
 	"\/images\/logos\/don-mccue-chevy-logo.jpg": {
 		"ft": 16384,
 		"iS": 8728,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/don-mccue-chevy-logo.jpg",
 		"oF": 0,
@@ -1025,6 +1082,7 @@
 	"\/images\/logos\/dunkindonuts-logo.jpg": {
 		"ft": 16384,
 		"iS": 20097,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/dunkindonuts-logo.jpg",
 		"oF": 0,
@@ -1035,6 +1093,7 @@
 	"\/images\/logos\/ejsplace-logo.jpg": {
 		"ft": 16384,
 		"iS": 19923,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/ejsplace-logo.jpg",
 		"oF": 0,
@@ -1045,6 +1104,7 @@
 	"\/images\/logos\/ellies-logo.jpg": {
 		"ft": 16384,
 		"iS": 16562,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/ellies-logo.jpg",
 		"oF": 0,
@@ -1055,6 +1115,7 @@
 	"\/images\/logos\/elmhurst-logo.jpg": {
 		"ft": 16384,
 		"iS": 21988,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/elmhurst-logo.jpg",
 		"oF": 0,
@@ -1065,6 +1126,7 @@
 	"\/images\/logos\/emhc-logo.jpg": {
 		"ft": 16384,
 		"iS": 11157,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/emhc-logo.jpg",
 		"oF": 0,
@@ -1075,6 +1137,7 @@
 	"\/images\/logos\/express-logo.jpg": {
 		"ft": 16384,
 		"iS": 14715,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/express-logo.jpg",
 		"oF": 0,
@@ -1085,6 +1148,7 @@
 	"\/images\/logos\/firstmidwestbank-logo.jpg": {
 		"ft": 16384,
 		"iS": 7414,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/firstmidwestbank-logo.jpg",
 		"oF": 0,
@@ -1095,6 +1159,7 @@
 	"\/images\/logos\/fitzsparekeys-logo.jpg": {
 		"ft": 16384,
 		"iS": 11448,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/fitzsparekeys-logo.jpg",
 		"oF": 0,
@@ -1105,6 +1170,7 @@
 	"\/images\/logos\/fitzspub-logo.jpg": {
 		"ft": 16384,
 		"iS": 13020,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/fitzspub-logo.jpg",
 		"oF": 0,
@@ -1115,6 +1181,7 @@
 	"\/images\/logos\/forestbluff-logo.jpg": {
 		"ft": 16384,
 		"iS": 5967,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/forestbluff-logo.jpg",
 		"oF": 0,
@@ -1125,6 +1192,7 @@
 	"\/images\/logos\/fyxation-logo.jpg": {
 		"ft": 16384,
 		"iS": 7405,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/fyxation-logo.jpg",
 		"oF": 0,
@@ -1146,6 +1214,7 @@
 	"\/images\/logos\/gooseisland-logo.jpg": {
 		"ft": 16384,
 		"iS": 17288,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/gooseisland-logo.jpg",
 		"oF": 0,
@@ -1156,6 +1225,7 @@
 	"\/images\/logos\/halfacre-logo.jpg": {
 		"ft": 16384,
 		"iS": 30274,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/halfacre-logo.jpg",
 		"oF": 0,
@@ -1166,6 +1236,7 @@
 	"\/images\/logos\/harvest-logo.jpg": {
 		"ft": 16384,
 		"iS": 5714,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/harvest-logo.jpg",
 		"oF": 0,
@@ -1176,6 +1247,7 @@
 	"\/images\/logos\/hbjones-logo.jpg": {
 		"ft": 16384,
 		"iS": 17676,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/hbjones-logo.jpg",
 		"oF": 0,
@@ -1186,6 +1258,7 @@
 	"\/images\/logos\/hi-logo.jpg": {
 		"ft": 16384,
 		"iS": 4133,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/hi-logo.jpg",
 		"oF": 0,
@@ -1196,6 +1269,7 @@
 	"\/images\/logos\/hinsdale-logo.jpg": {
 		"ft": 16384,
 		"iS": 11462,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/hinsdale-logo.jpg",
 		"oF": 0,
@@ -1206,6 +1280,7 @@
 	"\/images\/logos\/hornmcgowan-logo.jpg": {
 		"ft": 16384,
 		"iS": 7298,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/hornmcgowan-logo.jpg",
 		"oF": 0,
@@ -1216,6 +1291,7 @@
 	"\/images\/logos\/horsethief-logo.jpg": {
 		"ft": 16384,
 		"iS": 11022,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/horsethief-logo.jpg",
 		"oF": 0,
@@ -1226,6 +1302,7 @@
 	"\/images\/logos\/hotel-baker-logo.jpg": {
 		"ft": 16384,
 		"iS": 4499,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/hotel-baker-logo.jpg",
 		"oF": 0,
@@ -1236,6 +1313,7 @@
 	"\/images\/logos\/ibji-logo.jpg": {
 		"ft": 16384,
 		"iS": 9273,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/ibji-logo.jpg",
 		"oF": 0,
@@ -1246,6 +1324,7 @@
 	"\/images\/logos\/ibjiscreening-logo.jpg": {
 		"ft": 16384,
 		"iS": 21095,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/ibjiscreening-logo.jpg",
 		"oF": 0,
@@ -1267,6 +1346,7 @@
 	"\/images\/logos\/ica-logo.jpg": {
 		"ft": 16384,
 		"iS": 12857,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/ica-logo.jpg",
 		"oF": 0,
@@ -1277,6 +1357,7 @@
 	"\/images\/logos\/illinois-logo.jpg": {
 		"ft": 16384,
 		"iS": 7807,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/illinois-logo.jpg",
 		"oF": 0,
@@ -1287,6 +1368,7 @@
 	"\/images\/logos\/imperialoak-logo.jpg": {
 		"ft": 16384,
 		"iS": 10553,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/imperialoak-logo.jpg",
 		"oF": 0,
@@ -1297,6 +1379,7 @@
 	"\/images\/logos\/intelligentsia-logo.jpg": {
 		"ft": 16384,
 		"iS": 8765,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/intelligentsia-logo.jpg",
 		"oF": 0,
@@ -1307,6 +1390,7 @@
 	"\/images\/logos\/intelligentsialg-logo.jpg": {
 		"ft": 16384,
 		"iS": 48497,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/intelligentsialg-logo.jpg",
 		"oF": 0,
@@ -1317,6 +1401,7 @@
 	"\/images\/logos\/intent-logo.jpg": {
 		"ft": 16384,
 		"iS": 29073,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/intent-logo.jpg",
 		"oF": 0,
@@ -1327,6 +1412,7 @@
 	"\/images\/logos\/itathome-logo.jpg": {
 		"ft": 16384,
 		"iS": 10737,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/itathome-logo.jpg",
 		"oF": 0,
@@ -1337,6 +1423,7 @@
 	"\/images\/logos\/keatinglaw-logo.jpg": {
 		"ft": 16384,
 		"iS": 16978,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/keatinglaw-logo.jpg",
 		"oF": 0,
@@ -1347,6 +1434,7 @@
 	"\/images\/logos\/ketchum-logo.jpg": {
 		"ft": 16384,
 		"iS": 4587,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/ketchum-logo.jpg",
 		"oF": 0,
@@ -1357,6 +1445,7 @@
 	"\/images\/logos\/kimmers-logo.jpg": {
 		"ft": 16384,
 		"iS": 11215,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/kimmers-logo.jpg",
 		"oF": 0,
@@ -1367,6 +1456,7 @@
 	"\/images\/logos\/knauz-logo.jpg": {
 		"ft": 16384,
 		"iS": 13932,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/knauz-logo.jpg",
 		"oF": 0,
@@ -1377,6 +1467,7 @@
 	"\/images\/logos\/knauz2016-logo.jpg": {
 		"ft": 16384,
 		"iS": 31537,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/knauz2016-logo.jpg",
 		"oF": 0,
@@ -1387,6 +1478,7 @@
 	"\/images\/logos\/lakebluff-logo.jpg": {
 		"ft": 16384,
 		"iS": 25995,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/lakebluff-logo.jpg",
 		"oF": 0,
@@ -1397,6 +1489,7 @@
 	"\/images\/logos\/lakebluffbrewing-logo.jpg": {
 		"ft": 16384,
 		"iS": 16193,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/lakebluffbrewing-logo.jpg",
 		"oF": 0,
@@ -1407,6 +1500,7 @@
 	"\/images\/logos\/lakecountybikeproject-logo.jpg": {
 		"ft": 16384,
 		"iS": 13627,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/lakecountybikeproject-logo.jpg",
 		"oF": 0,
@@ -1417,6 +1511,7 @@
 	"\/images\/logos\/lakeforestbank-logo.jpg": {
 		"ft": 16384,
 		"iS": 18715,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/lakeforestbank-logo.jpg",
 		"oF": 0,
@@ -1427,6 +1522,7 @@
 	"\/images\/logos\/lakeforestcountryday-logo.jpg": {
 		"ft": 16384,
 		"iS": 10437,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/lakeforestcountryday-logo.jpg",
 		"oF": 0,
@@ -1437,6 +1533,7 @@
 	"\/images\/logos\/larryroesch-logo.jpg": {
 		"ft": 16384,
 		"iS": 8883,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/larryroesch-logo.jpg",
 		"oF": 0,
@@ -1447,6 +1544,7 @@
 	"\/images\/logos\/lbvillage-logo.jpg": {
 		"ft": 16384,
 		"iS": 36491,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/lbvillage-logo.jpg",
 		"oF": 0,
@@ -1457,6 +1555,7 @@
 	"\/images\/logos\/lftv-logo.jpg": {
 		"ft": 16384,
 		"iS": 12397,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/lftv-logo.jpg",
 		"oF": 0,
@@ -1467,6 +1566,7 @@
 	"\/images\/logos\/lg-arcedium-logo.jpg": {
 		"ft": 16384,
 		"iS": 7547,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/lg-arcedium-logo.jpg",
 		"oF": 0,
@@ -1477,6 +1577,7 @@
 	"\/images\/logos\/lg-binnys-logo.jpg": {
 		"ft": 16384,
 		"iS": 11770,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/lg-binnys-logo.jpg",
 		"oF": 0,
@@ -1487,6 +1588,7 @@
 	"\/images\/logos\/lg-bistro-one-west-logo.jpg": {
 		"ft": 16384,
 		"iS": 6074,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/lg-bistro-one-west-logo.jpg",
 		"oF": 0,
@@ -1497,6 +1599,7 @@
 	"\/images\/logos\/lg-blue-goose-logo.jpg": {
 		"ft": 16384,
 		"iS": 9646,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/lg-blue-goose-logo.jpg",
 		"oF": 0,
@@ -1507,6 +1610,7 @@
 	"\/images\/logos\/lg-bmo-harris-logo.jpg": {
 		"ft": 16384,
 		"iS": 3831,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/lg-bmo-harris-logo.jpg",
 		"oF": 0,
@@ -1517,6 +1621,7 @@
 	"\/images\/logos\/lg-bull-bear-logo.jpg": {
 		"ft": 16384,
 		"iS": 16108,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/lg-bull-bear-logo.jpg",
 		"oF": 0,
@@ -1527,6 +1632,7 @@
 	"\/images\/logos\/lg-don-mccue-chevy-logo.jpg": {
 		"ft": 16384,
 		"iS": 12782,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/lg-don-mccue-chevy-logo.jpg",
 		"oF": 0,
@@ -1537,6 +1643,7 @@
 	"\/images\/logos\/lg-harvest-logo.jpg": {
 		"ft": 16384,
 		"iS": 7324,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/lg-harvest-logo.jpg",
 		"oF": 0,
@@ -1547,6 +1654,7 @@
 	"\/images\/logos\/lg-hotel-baker-logo.jpg": {
 		"ft": 16384,
 		"iS": 6842,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/lg-hotel-baker-logo.jpg",
 		"oF": 0,
@@ -1557,6 +1665,7 @@
 	"\/images\/logos\/lg-kimmers-logo.jpg": {
 		"ft": 16384,
 		"iS": 12078,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/lg-kimmers-logo.jpg",
 		"oF": 0,
@@ -1567,6 +1676,7 @@
 	"\/images\/logos\/lg-mendel-truck-logo.jpg": {
 		"ft": 16384,
 		"iS": 10771,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/lg-mendel-truck-logo.jpg",
 		"oF": 0,
@@ -1577,6 +1687,7 @@
 	"\/images\/logos\/lg-sammys-bikeshop-logo.jpg": {
 		"ft": 16384,
 		"iS": 8897,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/lg-sammys-bikeshop-logo.jpg",
 		"oF": 0,
@@ -1587,6 +1698,7 @@
 	"\/images\/logos\/lg-sammys-cc-logo.jpg": {
 		"ft": 16384,
 		"iS": 23842,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/lg-sammys-cc-logo.jpg",
 		"oF": 0,
@@ -1597,6 +1709,7 @@
 	"\/images\/logos\/lg-smittys-logo.jpg": {
 		"ft": 16384,
 		"iS": 6540,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/lg-smittys-logo.jpg",
 		"oF": 0,
@@ -1607,6 +1720,7 @@
 	"\/images\/logos\/lg-st-charles-logo.jpg": {
 		"ft": 16384,
 		"iS": 12785,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/lg-st-charles-logo.jpg",
 		"oF": 0,
@@ -1617,6 +1731,7 @@
 	"\/images\/logos\/lg-st-charles-parks-logo.jpg": {
 		"ft": 16384,
 		"iS": 16101,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/lg-st-charles-parks-logo.jpg",
 		"oF": 0,
@@ -1627,6 +1742,7 @@
 	"\/images\/logos\/lg-wine-exchange-logo.jpg": {
 		"ft": 16384,
 		"iS": 8119,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/lg-wine-exchange-logo.jpg",
 		"oF": 0,
@@ -1637,6 +1753,7 @@
 	"\/images\/logos\/lindemannchimney-logo.jpg": {
 		"ft": 16384,
 		"iS": 12875,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/lindemannchimney-logo.jpg",
 		"oF": 0,
@@ -1647,6 +1764,7 @@
 	"\/images\/logos\/luckybrake-logo.jpg": {
 		"ft": 16384,
 		"iS": 5918,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/luckybrake-logo.jpg",
 		"oF": 0,
@@ -1657,6 +1775,7 @@
 	"\/images\/logos\/mack-logo.jpg": {
 		"ft": 16384,
 		"iS": 23476,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/mack-logo.jpg",
 		"oF": 0,
@@ -1667,6 +1786,7 @@
 	"\/images\/logos\/mariani-logo.jpg": {
 		"ft": 16384,
 		"iS": 6236,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/mariani-logo.jpg",
 		"oF": 0,
@@ -1677,6 +1797,7 @@
 	"\/images\/logos\/matthewtodd-logo.jpg": {
 		"ft": 16384,
 		"iS": 10418,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/matthewtodd-logo.jpg",
 		"oF": 0,
@@ -1687,6 +1808,7 @@
 	"\/images\/logos\/mbfinancial-logo.jpg": {
 		"ft": 16384,
 		"iS": 5735,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/mbfinancial-logo.jpg",
 		"oF": 0,
@@ -1697,6 +1819,7 @@
 	"\/images\/logos\/mccvb-logo.jpg": {
 		"ft": 16384,
 		"iS": 10990,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/mccvb-logo.jpg",
 		"oF": 0,
@@ -1707,6 +1830,7 @@
 	"\/images\/logos\/mcl-logo.jpg": {
 		"ft": 16384,
 		"iS": 6921,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/mcl-logo.jpg",
 		"oF": 0,
@@ -1717,6 +1841,7 @@
 	"\/images\/logos\/mcs-logo.jpg": {
 		"ft": 16384,
 		"iS": 5795,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/mcs-logo.jpg",
 		"oF": 0,
@@ -1727,6 +1852,7 @@
 	"\/images\/logos\/meatheads-logo.jpg": {
 		"ft": 16384,
 		"iS": 12024,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/meatheads-logo.jpg",
 		"oF": 0,
@@ -1737,6 +1863,7 @@
 	"\/images\/logos\/mehta-logo.jpg": {
 		"ft": 16384,
 		"iS": 5003,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/mehta-logo.jpg",
 		"oF": 0,
@@ -1747,6 +1874,7 @@
 	"\/images\/logos\/mendel-truck-logo.jpg": {
 		"ft": 16384,
 		"iS": 4769,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/mendel-truck-logo.jpg",
 		"oF": 0,
@@ -1757,6 +1885,7 @@
 	"\/images\/logos\/nctv17-logo.jpg": {
 		"ft": 16384,
 		"iS": 29288,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/nctv17-logo.jpg",
 		"oF": 0,
@@ -1767,6 +1896,7 @@
 	"\/images\/logos\/newyorklife-logo.jpg": {
 		"ft": 16384,
 		"iS": 49812,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/newyorklife-logo.jpg",
 		"oF": 0,
@@ -1777,6 +1907,7 @@
 	"\/images\/logos\/northwestern-jacobs.jpg": {
 		"ft": 16384,
 		"iS": 8223,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/northwestern-jacobs.jpg",
 		"oF": 0,
@@ -1787,6 +1918,7 @@
 	"\/images\/logos\/northwestern-logo.jpg": {
 		"ft": 16384,
 		"iS": 37604,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/northwestern-logo.jpg",
 		"oF": 0,
@@ -1797,6 +1929,7 @@
 	"\/images\/logos\/northwestherald-logo.jpg": {
 		"ft": 16384,
 		"iS": 7134,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/northwestherald-logo.jpg",
 		"oF": 0,
@@ -1807,6 +1940,7 @@
 	"\/images\/logos\/nsp-logo.jpg": {
 		"ft": 16384,
 		"iS": 5218,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/nsp-logo.jpg",
 		"oF": 0,
@@ -1817,6 +1951,7 @@
 	"\/images\/logos\/nuun-logo.jpg": {
 		"ft": 16384,
 		"iS": 12805,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/nuun-logo.jpg",
 		"oF": 0,
@@ -1827,6 +1962,7 @@
 	"\/images\/logos\/olympia-logo.jpg": {
 		"ft": 16384,
 		"iS": 9390,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/olympia-logo.jpg",
 		"oF": 0,
@@ -1837,6 +1973,7 @@
 	"\/images\/logos\/onetrickpony-logo.jpg": {
 		"ft": 16384,
 		"iS": 19383,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/onetrickpony-logo.jpg",
 		"oF": 0,
@@ -1847,6 +1984,7 @@
 	"\/images\/logos\/organicvalley-logo.jpg": {
 		"ft": 16384,
 		"iS": 22226,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/organicvalley-logo.jpg",
 		"oF": 0,
@@ -1857,6 +1995,7 @@
 	"\/images\/logos\/packeywebbford-logo.jpg": {
 		"ft": 16384,
 		"iS": 58917,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/packeywebbford-logo.jpg",
 		"oF": 0,
@@ -1867,6 +2006,7 @@
 	"\/images\/logos\/pactimo-logo.jpg": {
 		"ft": 16384,
 		"iS": 4944,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/pactimo-logo.jpg",
 		"oF": 0,
@@ -1877,6 +2017,7 @@
 	"\/images\/logos\/pasquesi-logo.jpg": {
 		"ft": 16384,
 		"iS": 20360,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/pasquesi-logo.jpg",
 		"oF": 0,
@@ -1887,6 +2028,7 @@
 	"\/images\/logos\/pnc-logo.jpg": {
 		"ft": 16384,
 		"iS": 5306,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/pnc-logo.jpg",
 		"oF": 0,
@@ -1908,6 +2050,7 @@
 	"\/images\/logos\/quaker-logo.jpg": {
 		"ft": 16384,
 		"iS": 13019,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/quaker-logo.jpg",
 		"oF": 0,
@@ -1918,6 +2061,7 @@
 	"\/images\/logos\/rauecenter-logo.jpg": {
 		"ft": 16384,
 		"iS": 4765,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/rauecenter-logo.jpg",
 		"oF": 0,
@@ -1928,6 +2072,7 @@
 	"\/images\/logos\/revbrewing-logo.jpg": {
 		"ft": 16384,
 		"iS": 19878,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/revbrewing-logo.jpg",
 		"oF": 0,
@@ -1938,6 +2083,7 @@
 	"\/images\/logos\/ric-logo.jpg": {
 		"ft": 16384,
 		"iS": 21685,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/ric-logo.jpg",
 		"oF": 0,
@@ -1948,6 +2094,7 @@
 	"\/images\/logos\/risecycle-logo.jpg": {
 		"ft": 16384,
 		"iS": 8156,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/risecycle-logo.jpg",
 		"oF": 0,
@@ -1958,6 +2105,7 @@
 	"\/images\/logos\/salernodds-logo.jpg": {
 		"ft": 16384,
 		"iS": 19619,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/salernodds-logo.jpg",
 		"oF": 0,
@@ -1968,6 +2116,7 @@
 	"\/images\/logos\/sammys-bikeshop-logo.jpg": {
 		"ft": 16384,
 		"iS": 3726,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/sammys-bikeshop-logo.jpg",
 		"oF": 0,
@@ -1978,6 +2127,7 @@
 	"\/images\/logos\/sammys-cc-logo.jpg": {
 		"ft": 16384,
 		"iS": 16125,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/sammys-cc-logo.jpg",
 		"oF": 0,
@@ -1988,6 +2138,7 @@
 	"\/images\/logos\/scva-logo.jpg": {
 		"ft": 16384,
 		"iS": 18001,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/scva-logo.jpg",
 		"oF": 0,
@@ -1998,6 +2149,7 @@
 	"\/images\/logos\/shinola-logo.jpg": {
 		"ft": 16384,
 		"iS": 7685,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/shinola-logo.jpg",
 		"oF": 0,
@@ -2008,6 +2160,7 @@
 	"\/images\/logos\/sigma-logo.jpg": {
 		"ft": 16384,
 		"iS": 7973,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/sigma-logo.jpg",
 		"oF": 0,
@@ -2018,6 +2171,7 @@
 	"\/images\/logos\/slowroll-logo.jpg": {
 		"ft": 16384,
 		"iS": 23960,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/slowroll-logo.jpg",
 		"oF": 0,
@@ -2028,6 +2182,7 @@
 	"\/images\/logos\/smithvillage-logo.jpg": {
 		"ft": 16384,
 		"iS": 7491,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/smithvillage-logo.jpg",
 		"oF": 0,
@@ -2038,6 +2193,7 @@
 	"\/images\/logos\/smittys-logo.jpg": {
 		"ft": 16384,
 		"iS": 4872,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/smittys-logo.jpg",
 		"oF": 0,
@@ -2048,6 +2204,7 @@
 	"\/images\/logos\/solstice-logo.jpg": {
 		"ft": 16384,
 		"iS": 8475,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/solstice-logo.jpg",
 		"oF": 0,
@@ -2058,6 +2215,7 @@
 	"\/images\/logos\/spinearc-logo.jpg": {
 		"ft": 16384,
 		"iS": 6266,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/spinearc-logo.jpg",
 		"oF": 0,
@@ -2068,6 +2226,7 @@
 	"\/images\/logos\/sram-logo-large.jpg": {
 		"ft": 16384,
 		"iS": 19287,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/sram-logo-large.jpg",
 		"oF": 0,
@@ -2078,6 +2237,7 @@
 	"\/images\/logos\/sram-logo.jpg": {
 		"ft": 16384,
 		"iS": 5937,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/sram-logo.jpg",
 		"oF": 0,
@@ -2088,6 +2248,7 @@
 	"\/images\/logos\/ssgarza-logo.jpg": {
 		"ft": 16384,
 		"iS": 6361,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/ssgarza-logo.jpg",
 		"oF": 0,
@@ -2098,6 +2259,7 @@
 	"\/images\/logos\/st-charles-logo.jpg": {
 		"ft": 16384,
 		"iS": 10545,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/st-charles-logo.jpg",
 		"oF": 0,
@@ -2108,6 +2270,7 @@
 	"\/images\/logos\/st-charles-parks-logo.jpg": {
 		"ft": 16384,
 		"iS": 13084,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/st-charles-parks-logo.jpg",
 		"oF": 0,
@@ -2118,6 +2281,7 @@
 	"\/images\/logos\/superiorambulance-logo.jpg": {
 		"ft": 16384,
 		"iS": 12210,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/superiorambulance-logo.jpg",
 		"oF": 0,
@@ -2128,6 +2292,7 @@
 	"\/images\/logos\/swc-logo.jpg": {
 		"ft": 16384,
 		"iS": 5926,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/swc-logo.jpg",
 		"oF": 0,
@@ -2138,6 +2303,7 @@
 	"\/images\/logos\/thecottage-logo.jpg": {
 		"ft": 16384,
 		"iS": 8916,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/thecottage-logo.jpg",
 		"oF": 0,
@@ -2148,6 +2314,7 @@
 	"\/images\/logos\/tourdecrystallake-logo.jpg": {
 		"ft": 16384,
 		"iS": 20278,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/tourdecrystallake-logo.jpg",
 		"oF": 0,
@@ -2158,6 +2325,7 @@
 	"\/images\/logos\/uline-logo.jpg": {
 		"ft": 16384,
 		"iS": 22408,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/uline-logo.jpg",
 		"oF": 0,
@@ -2168,6 +2336,7 @@
 	"\/images\/logos\/upbikes-logo.jpg": {
 		"ft": 16384,
 		"iS": 13143,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/upbikes-logo.jpg",
 		"oF": 0,
@@ -2189,6 +2358,7 @@
 	"\/images\/logos\/vistahealth-logo.jpg": {
 		"ft": 16384,
 		"iS": 20239,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/vistahealth-logo.jpg",
 		"oF": 0,
@@ -2199,6 +2369,7 @@
 	"\/images\/logos\/voila-logo.jpg": {
 		"ft": 16384,
 		"iS": 8784,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/voila-logo.jpg",
 		"oF": 0,
@@ -2209,6 +2380,7 @@
 	"\/images\/logos\/wbbmnewsradio-logo.jpg": {
 		"ft": 16384,
 		"iS": 20457,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/wbbmnewsradio-logo.jpg",
 		"oF": 0,
@@ -2219,6 +2391,7 @@
 	"\/images\/logos\/wbr-benefit-large-logo.jpg": {
 		"ft": 16384,
 		"iS": 17208,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/wbr-benefit-large-logo.jpg",
 		"oF": 0,
@@ -2229,6 +2402,7 @@
 	"\/images\/logos\/wbr-logo.jpg": {
 		"ft": 16384,
 		"iS": 7302,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/wbr-logo.jpg",
 		"oF": 0,
@@ -2239,6 +2413,7 @@
 	"\/images\/logos\/wheelwerks-logo.jpg": {
 		"ft": 16384,
 		"iS": 8830,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/wheelwerks-logo.jpg",
 		"oF": 0,
@@ -2249,6 +2424,7 @@
 	"\/images\/logos\/wine-exchange-logo.jpg": {
 		"ft": 16384,
 		"iS": 5615,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/wine-exchange-logo.jpg",
 		"oF": 0,
@@ -2259,6 +2435,7 @@
 	"\/images\/logos\/wintrust-logo.jpg": {
 		"ft": 16384,
 		"iS": 24829,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/wintrust-logo.jpg",
 		"oF": 0,
@@ -2269,6 +2446,7 @@
 	"\/images\/logos\/woodlandfoods-logo.jpg": {
 		"ft": 16384,
 		"iS": 11123,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/woodlandfoods-logo.jpg",
 		"oF": 0,
@@ -2279,6 +2457,7 @@
 	"\/images\/logos\/wpd-logo.jpg": {
 		"ft": 16384,
 		"iS": 20586,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/wpd-logo.jpg",
 		"oF": 0,
@@ -2289,6 +2468,7 @@
 	"\/images\/logos\/ymca-logo.jpg": {
 		"ft": 16384,
 		"iS": 5805,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/ymca-logo.jpg",
 		"oF": 0,
@@ -2299,6 +2479,7 @@
 	"\/images\/logos\/zioncyclery-logo.jpg": {
 		"ft": 16384,
 		"iS": 9117,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/zioncyclery-logo.jpg",
 		"oF": 0,
@@ -2309,6 +2490,7 @@
 	"\/images\/logos\/zipcar-logo.jpg": {
 		"ft": 16384,
 		"iS": 8346,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/logos\/zipcar-logo.jpg",
 		"oF": 0,
@@ -2319,6 +2501,7 @@
 	"\/images\/maps\/beverly-sm.jpg": {
 		"ft": 16384,
 		"iS": 161654,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/maps\/beverly-sm.jpg",
 		"oF": 0,
@@ -2329,6 +2512,7 @@
 	"\/images\/maps\/beverly.jpg": {
 		"ft": 16384,
 		"iS": 367196,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/maps\/beverly.jpg",
 		"oF": 0,
@@ -2339,6 +2523,7 @@
 	"\/images\/maps\/chicago.jpg": {
 		"ft": 16384,
 		"iS": 104874,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/maps\/chicago.jpg",
 		"oF": 0,
@@ -2349,6 +2534,7 @@
 	"\/images\/maps\/course-map.jpg": {
 		"ft": 16384,
 		"iS": 187242,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/maps\/course-map.jpg",
 		"oF": 0,
@@ -2359,6 +2545,7 @@
 	"\/images\/maps\/crystal-lake.jpg": {
 		"ft": 16384,
 		"iS": 153303,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/maps\/crystal-lake.jpg",
 		"oF": 0,
@@ -2369,6 +2556,7 @@
 	"\/images\/maps\/downers-grove.jpg": {
 		"ft": 16384,
 		"iS": 128414,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/maps\/downers-grove.jpg",
 		"oF": 0,
@@ -2379,6 +2567,7 @@
 	"\/images\/maps\/elmhurst-sm.jpg": {
 		"ft": 16384,
 		"iS": 101408,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/maps\/elmhurst-sm.jpg",
 		"oF": 0,
@@ -2389,6 +2578,7 @@
 	"\/images\/maps\/elmhurst.jpg": {
 		"ft": 16384,
 		"iS": 414183,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/maps\/elmhurst.jpg",
 		"oF": 0,
@@ -2399,6 +2589,7 @@
 	"\/images\/maps\/fulton-sm.jpg": {
 		"ft": 16384,
 		"iS": 101999,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/maps\/fulton-sm.jpg",
 		"oF": 0,
@@ -2409,6 +2600,7 @@
 	"\/images\/maps\/fulton.jpg": {
 		"ft": 16384,
 		"iS": 395308,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/maps\/fulton.jpg",
 		"oF": 0,
@@ -2419,6 +2611,7 @@
 	"\/images\/maps\/glen-ellyn-sm.jpg": {
 		"ft": 16384,
 		"iS": 107481,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/maps\/glen-ellyn-sm.jpg",
 		"oF": 0,
@@ -2429,6 +2622,7 @@
 	"\/images\/maps\/glen-ellyn.jpg": {
 		"ft": 16384,
 		"iS": 420951,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/maps\/glen-ellyn.jpg",
 		"oF": 0,
@@ -2439,6 +2633,7 @@
 	"\/images\/maps\/kenosha.jpg": {
 		"ft": 16384,
 		"iS": 143612,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/maps\/kenosha.jpg",
 		"oF": 0,
@@ -2449,6 +2644,7 @@
 	"\/images\/maps\/lake-bluff-sm.jpg": {
 		"ft": 16384,
 		"iS": 155038,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/maps\/lake-bluff-sm.jpg",
 		"oF": 0,
@@ -2459,6 +2655,7 @@
 	"\/images\/maps\/lake-bluff.jpg": {
 		"ft": 16384,
 		"iS": 563400,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/maps\/lake-bluff.jpg",
 		"oF": 0,
@@ -2469,6 +2666,7 @@
 	"\/images\/maps\/sharon-crit.jpg": {
 		"ft": 16384,
 		"iS": 108390,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/maps\/sharon-crit.jpg",
 		"oF": 0,
@@ -2479,6 +2677,7 @@
 	"\/images\/maps\/sharon-road.jpg": {
 		"ft": 16384,
 		"iS": 150660,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/maps\/sharon-road.jpg",
 		"oF": 0,
@@ -2489,6 +2688,7 @@
 	"\/images\/maps\/south-chicago-slow-roll.jpg": {
 		"ft": 16384,
 		"iS": 209063,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/maps\/south-chicago-slow-roll.jpg",
 		"oF": 0,
@@ -2499,6 +2699,7 @@
 	"\/images\/maps\/south-chicago-sm.jpg": {
 		"ft": 16384,
 		"iS": 124671,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/maps\/south-chicago-sm.jpg",
 		"oF": 0,
@@ -2509,6 +2710,7 @@
 	"\/images\/maps\/south-chicago.jpg": {
 		"ft": 16384,
 		"iS": 350084,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/maps\/south-chicago.jpg",
 		"oF": 0,
@@ -2519,6 +2721,7 @@
 	"\/images\/maps\/stcharles.jpg": {
 		"ft": 16384,
 		"iS": 114363,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/maps\/stcharles.jpg",
 		"oF": 0,
@@ -2529,6 +2732,7 @@
 	"\/images\/maps\/waukegan.jpg": {
 		"ft": 16384,
 		"iS": 142142,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/maps\/waukegan.jpg",
 		"oF": 0,
@@ -2539,6 +2743,7 @@
 	"\/images\/maps\/west-dundee-sm.jpg": {
 		"ft": 16384,
 		"iS": 94363,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/maps\/west-dundee-sm.jpg",
 		"oF": 0,
@@ -2549,6 +2754,7 @@
 	"\/images\/maps\/west-dundee.jpg": {
 		"ft": 16384,
 		"iS": 365028,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/maps\/west-dundee.jpg",
 		"oF": 0,
@@ -2559,6 +2765,7 @@
 	"\/images\/maps\/willow-springs-circuit.jpg": {
 		"ft": 16384,
 		"iS": 260880,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/maps\/willow-springs-circuit.jpg",
 		"oF": 0,
@@ -2569,6 +2776,7 @@
 	"\/images\/maps\/willow-springs-parking.jpg": {
 		"ft": 16384,
 		"iS": 134937,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/maps\/willow-springs-parking.jpg",
 		"oF": 0,
@@ -2579,6 +2787,7 @@
 	"\/images\/maps\/willow-springs-sm.jpg": {
 		"ft": 16384,
 		"iS": 115555,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/maps\/willow-springs-sm.jpg",
 		"oF": 0,
@@ -2589,6 +2798,7 @@
 	"\/images\/maps\/willow-springs.jpg": {
 		"ft": 16384,
 		"iS": 479920,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/maps\/willow-springs.jpg",
 		"oF": 0,
@@ -2610,6 +2820,7 @@
 	"\/images\/red\/bg-footer.jpg": {
 		"ft": 16384,
 		"iS": 37929,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/red\/bg-footer.jpg",
 		"oF": 0,
@@ -2620,6 +2831,7 @@
 	"\/images\/red\/bg-header.jpg": {
 		"ft": 16384,
 		"iS": 89187,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/red\/bg-header.jpg",
 		"oF": 0,
@@ -2630,6 +2842,7 @@
 	"\/images\/red\/bg-nav.jpg": {
 		"ft": 16384,
 		"iS": 5212,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/red\/bg-nav.jpg",
 		"oF": 0,
@@ -2662,6 +2875,7 @@
 	"\/images\/red\/bg-subnav.jpg": {
 		"ft": 16384,
 		"iS": 56265,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/red\/bg-subnav.jpg",
 		"oF": 0,
@@ -2672,6 +2886,7 @@
 	"\/images\/red\/bg-subnav2.jpg": {
 		"ft": 16384,
 		"iS": 56198,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/red\/bg-subnav2.jpg",
 		"oF": 0,
@@ -2759,6 +2974,7 @@
 	"\/images\/register.jpg": {
 		"ft": 16384,
 		"iS": 19052,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/register.jpg",
 		"oF": 0,
@@ -2802,6 +3018,7 @@
 	"\/images\/Riverside-Family-Ride.jpg": {
 		"ft": 16384,
 		"iS": 204677,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/Riverside-Family-Ride.jpg",
 		"oF": 0,
@@ -2823,6 +3040,7 @@
 	"\/images\/teammack.jpg": {
 		"ft": 16384,
 		"iS": 131555,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/teammack.jpg",
 		"oF": 0,
@@ -2888,6 +3106,7 @@
 	"\/images\/USACycling-NCC-small.jpg": {
 		"ft": 16384,
 		"iS": 1231,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/USACycling-NCC-small.jpg",
 		"oF": 0,
@@ -2939,6 +3158,7 @@
 	"\/images\/WCAevent.jpg": {
 		"ft": 16384,
 		"iS": 341768,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/WCAevent.jpg",
 		"oF": 0,
@@ -2949,6 +3169,7 @@
 	"\/images\/WCAevent_sm.jpg": {
 		"ft": 16384,
 		"iS": 37724,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/WCAevent_sm.jpg",
 		"oF": 0,
@@ -2959,6 +3180,7 @@
 	"\/images\/zipcar.jpg": {
 		"ft": 16384,
 		"iS": 60056,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/zipcar.jpg",
 		"oF": 0,
@@ -2967,36 +3189,42 @@
 		"q": 100
 		},
 	"\/inc\/custom-header.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/custom-header.php",
 		"oF": 0
 		},
 	"\/inc\/customizer.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/customizer.php",
 		"oF": 0
 		},
 	"\/inc\/extras.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/extras.php",
 		"oF": 0
 		},
 	"\/inc\/jetpack.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/jetpack.php",
 		"oF": 0
 		},
 	"\/inc\/template-tags.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/template-tags.php",
 		"oF": 0
 		},
 	"\/index.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.php",
@@ -3004,6 +3232,7 @@
 		},
 	"\/js\/customizer.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/customizer-min.js",
@@ -3013,6 +3242,7 @@
 		},
 	"\/js\/featherlight.gallery.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/featherlight.gallery.min-min.js",
@@ -3022,6 +3252,7 @@
 		},
 	"\/js\/featherlight.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/featherlight.min-min.js",
@@ -3031,6 +3262,7 @@
 		},
 	"\/js\/jquery-1.6.1.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/jquery-1.6.1-min.js",
@@ -3040,6 +3272,7 @@
 		},
 	"\/js\/jquery-1.7.2.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/jquery-1.7.2.min-min.js",
@@ -3049,6 +3282,7 @@
 		},
 	"\/js\/jquery.countdown1.2.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/jquery.countdown1.2.min-min.js",
@@ -3058,6 +3292,7 @@
 		},
 	"\/js\/lightbox-min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/lightbox-min-min.js",
@@ -3067,6 +3302,7 @@
 		},
 	"\/js\/lightbox.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/lightbox-min.js",
@@ -3076,6 +3312,7 @@
 		},
 	"\/js\/navigation-ic-min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/navigation-ic-min-min.js",
@@ -3085,6 +3322,7 @@
 		},
 	"\/js\/navigation-ic.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/navigation-ic-min.js",
@@ -3094,6 +3332,7 @@
 		},
 	"\/js\/navigation.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/navigation-min.js",
@@ -3103,6 +3342,7 @@
 		},
 	"\/js\/skip-link-focus-fix.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/skip-link-focus-fix-min.js",
@@ -3111,12 +3351,14 @@
 		"tS": 0
 		},
 	"\/languages\/intelligentsiacup.pot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/languages\/intelligentsiacup.pot",
 		"oF": 0
 		},
 	"\/languages\/readme.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/languages\/readme.txt",
@@ -3143,22 +3385,24 @@
 		"oS": 0
 		},
 	"\/LICENSE": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/LICENSE",
 		"oF": 0
 		},
 	"\/page.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/page.php",
 		"oF": 0
 		},
 	"\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -3173,6 +3417,7 @@
 		"uCM": 0
 		},
 	"\/readme.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/readme.txt",
@@ -3668,18 +3913,21 @@
 		"q": 100
 		},
 	"\/search.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/search.php",
 		"oF": 0
 		},
 	"\/sidebar.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/sidebar.php",
 		"oF": 0
 		},
 	"\/single.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/single.php",
@@ -3696,30 +3944,35 @@
 		"oS": 0
 		},
 	"\/style.css.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/style.css.map",
 		"oF": 0
 		},
 	"\/template-parts\/content-none.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/content-none.php",
 		"oF": 0
 		},
 	"\/template-parts\/content-page.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/content-page.php",
 		"oF": 0
 		},
 	"\/template-parts\/content-search.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/content-search.php",
 		"oF": 0
 		},
 	"\/template-parts\/content.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/content.php",
@@ -3734,7 +3987,8 @@
 	"creationDate": 515169213,
 	"displayValue": "intelligentsiacup",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-karate"
+	"iconImageName": "meme-karate",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -3742,6 +3996,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
@@ -4138,6 +4393,10 @@
 			"active": 0,
 			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
 			},
+		"array-bracket-newline": {
+			"active": 0,
+			"optionString": "{'multiline': true, 'minItems': null}"
+			},
 		"array-bracket-spacing": {
 			"active": 0,
 			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
@@ -4145,6 +4404,10 @@
 		"array-callback-return": {
 			"active": 0,
 			"optionString": ""
+			},
+		"array-element-newline": {
+			"active": 0,
+			"optionString": "'always'"
 			},
 		"arrow-body-style": {
 			"active": 0,
@@ -4242,6 +4505,10 @@
 			"active": 0,
 			"optionString": "'always', {'null': 'always'}"
 			},
+		"for-direction": {
+			"active": 0,
+			"optionString": ""
+			},
 		"func-call-spacing": {
 			"active": 0,
 			"optionString": "'never'"
@@ -4258,9 +4525,17 @@
 			"active": 0,
 			"optionString": "'expression'"
 			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
+			},
+		"getter-return": {
+			"active": 0,
+			"optionString": "{'allowImplicit': false}"
 			},
 		"global-require": {
 			"active": 0,
@@ -4285,6 +4560,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,
@@ -4318,9 +4597,9 @@
 			"active": 0,
 			"optionString": "{'beforeBlockComment': true}"
 			},
-		"lines-around-directive": {
+		"lines-between-class-members": {
 			"active": 0,
-			"optionString": "{'before': 'always', 'after': 'always'}"
+			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
 		"max-depth": {
 			"active": 0,
@@ -4350,6 +4629,10 @@
 			"active": 0,
 			"optionString": "{'max': 1}"
 			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -4359,14 +4642,6 @@
 			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
 			},
 		"new-parens": {
-			"active": 0,
-			"optionString": ""
-			},
-		"newline-after-var": {
-			"active": 0,
-			"optionString": "'always'"
-			},
-		"newline-before-return": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -4389,6 +4664,10 @@
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
+			},
+		"no-buffer-constructor": {
+			"active": 0,
+			"optionString": ""
 			},
 		"no-caller": {
 			"active": 0,
@@ -4934,6 +5213,10 @@
 			"active": 0,
 			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
 			},
+		"padding-line-between-statements": {
+			"active": 0,
+			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
+			},
 		"prefer-arrow-callback": {
 			"active": 0,
 			"optionString": ""
@@ -5002,6 +5285,10 @@
 			"active": 0,
 			"optionString": "{'before': false, 'after': true}"
 			},
+		"semi-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
 		"sort-imports": {
 			"active": 0,
 			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
@@ -5041,6 +5328,10 @@
 		"strict": {
 			"active": 0,
 			"optionString": "'safe'"
+			},
+		"switch-colon-spacing": {
+			"active": 0,
+			"optionString": "{'after': true, 'before': false}"
 			},
 		"symbol-description": {
 			"active": 0,
@@ -5454,7 +5745,8 @@
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 0,
@@ -5487,6 +5779,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"outputStyle": 0,
+		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -5498,6 +5791,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
@@ -5528,7 +5822,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "kit",
 		"autoOutputPathReplace2": "html",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -5560,13 +5855,13 @@
 		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
 		"maskEmailAddresses": 1,
 		"outputFormat": 0,
 		"outputStyle": 0,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -5575,7 +5870,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -5595,7 +5891,8 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
-		"outputStyle": 0
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -5623,7 +5920,8 @@
 		"logicless": 0,
 		"outputFormat": 0,
 		"outputStyle": 1,
-		"railsCompatible": 0
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
@@ -5674,6 +5972,7 @@
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
+	"susyVersion": 3,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
 		"ascii-only": {

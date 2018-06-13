@@ -17,8 +17,8 @@
 }
 
 .entry-title {
-	margin-bottom: 0;
-	font-size: 2.5em;
+	 margin-bottom: 0;
+  font-size: 2.5em;
 	line-height: 1;
 }
 
@@ -48,15 +48,25 @@
 	background: #000d23;
 	background-position: center center;
 	background-repeat: no-repeat;
+	 background-attachment: fixed;
 	height: 560px;
 	background-size: cover;
 	margin-bottom: 30px;
 	position: relative;
 }	
 
+.home #hero {
+  height: 50vh;
+  overflow: hidden; }
+
 .header-image {
 	padding: 8px 8px 0 8px;
 }
+
+#hero-video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%; }
 
 #register-button a {
 	font-family: $font__secondary;
@@ -65,7 +75,7 @@
 	font-weight: 300;
 	padding: 0 9px 2px 9px;
 	overflow:hidden;
-	font-size:54px;
+	font-size: 90px;
 	line-height: 1;
 	position: absolute;
 	background: rgba($color__brand1, 0.8); //#00050c;
@@ -93,7 +103,7 @@
 
 .page-title, .title {
 	margin: -30px -30px 30px;
-	color:#ffffff;
+	color:#fff;
 	font-weight: 300;
 	text-transform: uppercase;
 	font-size: 24px;
@@ -107,16 +117,20 @@ h4.title {
 
 #right .block {
 	background: #fff;
+	box-shadow: 0px 0px 10px 0px #00050c;
 }
 
 .box {
-	border: 1px solid #d6d6d6;
-	padding: 24px 29px;
+	 border-bottom: 1px solid #d6d6d6;
+	padding-bottom: 29px;
 	margin-top: 1.25em;
 	p:last-child {
 		margin-bottom: 0;
 	}
 }
+
+.block .box:last-child {
+  border-bottom: none; }
 
 ul.box {
 	list-style-type: none;
@@ -127,6 +141,29 @@ ul.box {
 ul.box li {
 	padding-bottom: 14px;
 }	
+
+.home #right .block {
+  float: left;
+  padding: 30px 0; }
+
+.home .title {
+  margin: -30px 0 30px; }
+
+.home .entry-title {
+  font-size: 1.5em; }
+
+.home .box {
+  float: left;
+  width: 46%;
+  margin: 0 2% 20px; }
+  .home .box:nth-child(even) {
+    clear: both; }
+  .home .box:nth-last-child(2) {
+    border-bottom: none; }
+
+.home .wp-post-image {
+  margin-bottom: 20px; }
+
 
 .entry-footer {
 	color: #666;

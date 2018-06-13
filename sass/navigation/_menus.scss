@@ -113,7 +113,9 @@
 			position:relative;
 			float:left;
 			margin:0;
-			padding:0;
+			 padding: 0;
+			 width: 100%;
+			 text-align: center; 
 		}
 		a {
 			display: block;
@@ -123,11 +125,24 @@
 			font-weight: 400;
 			font-size: 110%;
 			line-height: 48px;
-			padding: 0 30px;
 			font-family: 'Open Sans', Trebuchet MS, sans-serif;
-		}
+     		transition: all 0.4s ease; 
+		}		
 	}
 }
+#navigation.fixed {
+			position: fixed;
+			left: 0;
+			top: 0;
+			right: 0;
+			z-index: 99999;
+			height: 50px;
+			padding-top: 0; 
+		}
+
+		.admin-bar #navigation.fixed {
+		  top: 32px; 
+		}
 
 #schedule #navigation ul li.schedule, #schedule #navigation ul li.schedule a:hover, 
 #racers #navigation ul li.racers, #racers #navigation ul li.racers a:hover, 
@@ -146,8 +161,8 @@
 }
 
 #navigation ul a:hover {
-	color: #ffffff;
-	background: url(images/blue/bg-darkred.jpg) repeat-x left top;
+	color: #fff;
+  background-color: #c00;
 }
 
 #navigation ul ul {
@@ -187,4 +202,26 @@
 
 #navigation ul li:hover > ul {
 	display:block;
+}
+
+#navigation .icon-logo {
+  display: none; }
+
+@media only screen and (min-width: 761px) {
+  #navigation ul ul {
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s linear 300ms, opacity 300ms; }
+	
+  #navigation ul li:hover > ul {
+    opacity: 1;
+    visibility: visible;
+    transition: visibility 0s linear 0s, opacity 300ms; }
+  #navigation.fixed .icon-logo {
+    display: block;
+    position: absolute;
+    width: 61px;
+    top: 3px;
+    left: 10px; } 
 }
