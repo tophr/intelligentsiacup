@@ -131,11 +131,16 @@ function intelligentsiacup_scripts() {
 	wp_enqueue_style( 'intelligentsiacup-style', get_stylesheet_uri(), array(), '1.1.2' );
 	
 	wp_enqueue_style( 'lightbox', get_template_directory_uri() . '/css/lightbox.css'  );
-	wp_enqueue_script( 'lightbox-js', get_template_directory_uri() . '/js/lightbox.js'  );
+	wp_enqueue_script( 'lightbox-js', get_template_directory_uri() . '/js/lightbox.js', array(), true  );
 	
-	wp_enqueue_style( 'featherlight', get_template_directory_uri() . '/css/featherlight.min.css'  );
-	
+	wp_enqueue_style( 'featherlight', get_template_directory_uri() . '/css/featherlight.min.css'  );	
 	wp_enqueue_style( 'featherlight-gallery', get_template_directory_uri() . '/css/featherlight.gallery.min.css'  );
+	
+	wp_enqueue_script( 'featherlight-js', get_template_directory_uri() . '/js/featherlight.min.js', array(), true  );
+	wp_enqueue_script( 'featherlight-gallery-js', get_template_directory_uri() . '/js/featherlight.gallery.min.js', array(), true  );
+	
+	//wp_enqueue_script( 'jquery-countdown', get_template_directory_uri() . '/js/jquery.countdown1.2.min.js', array(), true  );
+	
 	
 	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Open+Sans:600,400,300|Open+Sans+Condensed:300|Roboto+Condensed:700i'  );
 
