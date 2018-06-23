@@ -77,6 +77,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/css\/lightbox-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/lightbox-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/css\/lightbox.css": {
 		"aP": 1,
 		"bl": 0,
@@ -436,6 +446,17 @@
 		"iS": 511344,
 		"oA": 0,
 		"oAP": "\/images\/header-image.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/header.png": {
+		"ft": 32768,
+		"iS": 110627,
+		"oA": 0,
+		"oAP": "\/images\/header.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

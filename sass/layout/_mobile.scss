@@ -138,6 +138,9 @@ table {
 	#navigation li > ul.active,
 	#navigation ul li > ul.active {
 		display: block;
+		overflow-y: scroll;
+		-webkit-overflow-scrolling: touch;
+		max-height: 60vh;
 	}
 	#navigation-inner {
 		width: 100%;
@@ -173,7 +176,7 @@ table {
 .menu li a {
 	color: #fff;
 	display: block;
-	padding: 0.8em 2.5em;			
+	padding: 0.2em 2.5em;			
 	border-top: 1px solid rgba(255, 255, 255, 0.1);
 	position: relative;
 }
