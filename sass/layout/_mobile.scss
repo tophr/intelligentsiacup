@@ -197,11 +197,12 @@ span.menu-link a {
 	bottom: 0;
 	display: block;
 	font-size: 36px;
-	line-height: 42px;	
+	line-height: 50px;
 	padding: 0 20px;
 }
 .menu li.menu-item-has-children > a.active:after {
 	content: "\2013";
+	line-height: 47px;
 }
 
 .menu-link a {
