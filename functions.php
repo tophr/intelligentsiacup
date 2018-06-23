@@ -131,6 +131,7 @@ function intelligentsiacup_scripts() {
 	wp_enqueue_style( 'intelligentsiacup-style', get_stylesheet_uri(), array(), '1.1.2' );
 	
 	wp_enqueue_style( 'lightbox', get_template_directory_uri() . '/css/lightbox.css'  );
+	wp_enqueue_script( 'lightbox-js', get_template_directory_uri() . '/js/lightbox.js'  );
 	
 	wp_enqueue_style( 'featherlight', get_template_directory_uri() . '/css/featherlight.min.css'  );
 	
@@ -138,7 +139,7 @@ function intelligentsiacup_scripts() {
 	
 	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Open+Sans:600,400,300|Open+Sans+Condensed:300|Roboto+Condensed:700i'  );
 
-	//wp_enqueue_script( 'intelligentsiacup-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
+	wp_enqueue_script( 'intelligentsiacup-navigation', get_template_directory_uri() . '/js/navigation-ic.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'intelligentsiacup-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 	
