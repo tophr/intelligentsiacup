@@ -128,34 +128,33 @@ add_action( 'widgets_init', 'intelligentsiacup_widgets_init' );
  * Enqueue scripts and styles.
  */
 function intelligentsiacup_scripts() {
-	wp_enqueue_style( 'intelligentsiacup-style', get_stylesheet_uri(), array(), '1.1.2' );
+	wp_enqueue_style( 'intelligentsiacup-style', get_stylesheet_uri(), array(), '1.1.2', true );
 	
 	wp_enqueue_style( 'lightbox', get_template_directory_uri() . '/css/lightbox.css'  );
-	wp_enqueue_script( 'lightbox-js', get_template_directory_uri() . '/js/lightbox.js', array('jquery'), true  );
+	wp_enqueue_script( 'lightbox-js', get_template_directory_uri() . '/js/lightbox.min.js', array('jquery'), '2.51', true  );
 	
 	wp_enqueue_style( 'featherlight', get_template_directory_uri() . '/css/featherlight.min.css'  );	
 	wp_enqueue_style( 'featherlight-gallery', get_template_directory_uri() . '/css/featherlight.gallery.min.css'  );
 	
 	wp_enqueue_script( 'featherlight-js', get_template_directory_uri() . '/js/featherlight.min.js', array('jquery'), true  );
-	wp_enqueue_script( 'featherlight-gallery-js', get_template_directory_uri() . '/js/featherlight.gallery.min.js', array('jquery'), true  );
+	wp_enqueue_script( 'featherlight-gallery-js', get_template_directory_uri() . '/js/featherlight.gallery.min.js', array('jquery'), '1.3.1', true  );
 	
 	//wp_enqueue_script( 'jquery-countdown', get_template_directory_uri() . '/js/jquery.countdown1.2.min.js', array('jquery'), true  );	
 	
 	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Open+Sans:600,400,300|Open+Sans+Condensed:300|Roboto+Condensed:700i'  );
 
 	wp_enqueue_script( 'intelligentsiacup-navigation', get_template_directory_uri() . '/js/navigation-ic.js', array(), '20151215', true );
-
-	wp_enqueue_script( 'intelligentsiacup-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
+	//wp_enqueue_script( 'intelligentsiacup-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 	
 	if (!is_admin()) {
 		wp_deregister_script('jquery');
-		wp_register_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js', false, '1.12.4');
+		wp_register_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js', false, '1.12.4', true);
 		wp_enqueue_script('jquery');
 	}
 	
 	if ( is_page_template( 'page-results.php' ) ) {
     	wp_enqueue_style( 'jquery-ui-css', get_template_directory_uri() . '/css/jquery-ui.min.css'  );
-		wp_enqueue_script('jquery-ui', 'http://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js', array('jquery'), '1.12.1', true);
+		wp_enqueue_script('jquery-ui', 'https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js', array('jquery'), '1.12.1', true);
 		wp_enqueue_script('intelligentsiacup-tabs',  get_template_directory_uri() .'/js/tabs.js', array('jquery-ui'), '1', true);
 	}	
 

@@ -322,7 +322,7 @@
 		},
 	"\/images\/blue\/ic-logo.png": {
 		"ft": 32768,
-		"iS": 5167,
+		"iS": 13551,
 		"oA": 0,
 		"oAP": "\/images\/blue\/ic-logo.png",
 		"oF": 0,
@@ -2905,7 +2905,17 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/lightbox-min.js",
+		"oAP": "\/js\/lightbox.min.js",
+		"oF": 2,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/lightbox.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/lightbox.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
