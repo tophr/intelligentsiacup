@@ -128,13 +128,13 @@ add_action( 'widgets_init', 'intelligentsiacup_widgets_init' );
  * Enqueue scripts and styles.
  */
 function intelligentsiacup_scripts() {
-	wp_enqueue_style( 'intelligentsiacup-style', get_stylesheet_uri(), array(), '1.1.2', true );
+	wp_enqueue_style( 'intelligentsiacup-style', get_stylesheet_uri(), array(), '1.1.3' );
 	
 	wp_enqueue_style( 'lightbox', get_template_directory_uri() . '/css/lightbox.css'  );
 	wp_enqueue_script( 'lightbox-js', get_template_directory_uri() . '/js/lightbox.min.js', array('jquery'), '2.51', true  );
 	
-	wp_enqueue_style( 'featherlight', get_template_directory_uri() . '/css/featherlight.min.css'  );	
-	wp_enqueue_style( 'featherlight-gallery', get_template_directory_uri() . '/css/featherlight.gallery.min.css'  );
+	wp_enqueue_style( 'featherlight', get_template_directory_uri() . '/css/featherlight.min.css' );	
+	wp_enqueue_style( 'featherlight-gallery', get_template_directory_uri() . '/css/featherlight.gallery.min.css' );
 	
 	wp_enqueue_script( 'featherlight-js', get_template_directory_uri() . '/js/featherlight.min.js', array('jquery'), true  );
 	wp_enqueue_script( 'featherlight-gallery-js', get_template_directory_uri() . '/js/featherlight.gallery.min.js', array('jquery'), '1.3.1', true  );
